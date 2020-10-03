@@ -24,11 +24,11 @@ namespace Input
         [Header("Jump Variables")] [Tooltip("The Y velocity after a jump")]
         public float jumpSpeed;
 
+        [Header("Jump Variables")] [Tooltip("The Y velocity after a jump")]
+        public float fallSpeed;
+
         [Tooltip("How long the jump disables gravity")]
         public float jumpDuration;
-
-        [Tooltip("How long to buffer jump input")]
-        public float jumpInputBuffer;
 
         [Header("Kick Variables")] [Tooltip("The Y velocity after a kick")]
         public float kickSpeed;
@@ -65,9 +65,6 @@ namespace Input
         /// Cached movement input to be used in the current Frame 
         private float _moveInput = 0;
 
-        /// If the jump action was triggred this Frame
-        private bool _jumpTrigger = false;
-
         /// If the dash action was triggred this Frame
         private bool _dashTrigger = false;
 
@@ -79,6 +76,10 @@ namespace Input
 
         /// Timestamp of the last player dash
         private float _lastDash = 0;
+
+        private float _jumpTime;
+        private bool _isGrounded;
+        private bool _isJumping;
 
         private void Start()
         {
@@ -97,11 +98,11 @@ namespace Input
             directionAction.canceled += (ctx) => _directionInput = ctx.ReadValue<Vector2>();
 
             // Register the jump input (Ignore the CallbackContext)
-            jumpAction.performed += _ => _jumpTrigger = true;
+            jumpAction.performed += _ => OnJump();
             // Register the kick input (Ignore the CallbackContext)
-            kickAction.performed += _ => _kickTrigger = true;
+            kickAction.performed += _ => OnKick();
             // Register the dash input (Ignore the CallbackContext)
-            dashAction.performed += _ => _dashTrigger = true;
+            dashAction.performed += _ => OnDash();
 
             _rb = GetComponent<Rigidbody2D>();
             _moveTo.y = 0;
@@ -109,13 +110,36 @@ namespace Input
 
         public void Update()
         {
+            ApplyVerticalVelocity();
             Move();
-            if (_jumpTrigger)
-                OnJump();
-            if (_dashTrigger)
-                OnDash();
-            if (_kickTrigger)
-                OnKick();
+        }
+
+        private void ApplyVerticalVelocity()
+        {
+            if (_isGrounded)
+            {
+                _moveTo.y = 0;
+                Debug.Log("GROUNDED");
+                return;
+            }
+            
+            if (_isJumping)
+            {
+                Debug.Log("JUMPING");
+                _moveTo.y = jumpSpeed;
+                _jumpTime += Time.deltaTime;
+                if (_jumpTime > jumpDuration)
+                {
+                    _isJumping = false;
+                    _moveTo.y = fallSpeed;
+                    Debug.Log("SWITCH TO FALL");
+                }
+            }
+            else
+            {
+                Debug.Log("FALL");
+                _moveTo.y = fallSpeed;
+            }
         }
 
         private void Move()
@@ -126,8 +150,12 @@ namespace Input
 
         private void OnJump()
         {
-            _jumpTrigger = false;
-            // Do the actual jumping logic
+            if (_isGrounded)
+            {
+                Debug.Log("DO JUMP");
+                _isGrounded = false;
+                _isJumping = true;
+            }
         }
 
         private void OnDash()
@@ -151,6 +179,14 @@ namespace Input
             if (f == PlayerFlags.None)
                 return;
             // Do the actual kicking logic
+        }
+
+        public void SetIsGrounded(bool value)
+        {
+            Debug.Log("Set Groudded " + value);
+            _isGrounded = value;
+            _isJumping = false;
+            _jumpTime = 0;
         }
     }
 }
