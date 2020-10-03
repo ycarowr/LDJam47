@@ -30,27 +30,37 @@ public class PlayerMovement : MonoBehaviour
         {
             _currentSpeed.y = -Speed;
             _isMovingUp = false;
+            DisableTutorial();
         }
 
         if (Input.GetKey(up))
         {
             _currentSpeed.y = Speed;
             _isMovingUp = true;
+            DisableTutorial();
         }
 
         if (Input.GetKey(left))
         {
             _currentSpeed.x = -Speed;
             _isMovingLeft = true;
+            DisableTutorial();
         }
 
         if (Input.GetKey(right))
         {
             _currentSpeed.x = Speed;
             _isMovingLeft = false;
+            DisableTutorial();
         }
 
         _rigidbody2D.velocity = _currentSpeed * Time.deltaTime;
 
+    }
+
+    private void DisableTutorial()
+    {
+        var miniTutorial = MiniTutorial.Get();
+        miniTutorial.Hide();
     }
 }
