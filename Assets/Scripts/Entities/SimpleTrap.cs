@@ -2,10 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimpleTrap : Entity
+public class SimpleTrap : MonoBehaviour
 {
-    protected override void OnTriggerEnter2DPlayer()
+    private UiPressEButton _buttonE;
+    
+    private void Awake()
     {
-        Debug.Log($"On Trigger Enter 2D Player");
+        _buttonE = GetComponentInChildren<UiPressEButton>();
+        _buttonE.AddListener(DoSomething);
+    }
+
+    private void DoSomething()
+    {
+        Debug.Log("Start Processing Simple Trap");
     }
 }
