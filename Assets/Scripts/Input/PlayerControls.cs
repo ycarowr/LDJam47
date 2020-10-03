@@ -119,25 +119,21 @@ namespace Input
             if (_isGrounded)
             {
                 _moveTo.y = 0;
-                Debug.Log("GROUNDED");
                 return;
             }
             
             if (_isJumping)
             {
-                Debug.Log("JUMPING");
                 _moveTo.y = jumpSpeed;
                 _jumpTime += Time.deltaTime;
                 if (_jumpTime > jumpDuration)
                 {
                     _isJumping = false;
                     _moveTo.y = fallSpeed;
-                    Debug.Log("SWITCH TO FALL");
                 }
             }
             else
             {
-                Debug.Log("FALL");
                 _moveTo.y = fallSpeed;
             }
         }
@@ -152,7 +148,6 @@ namespace Input
         {
             if (_isGrounded)
             {
-                Debug.Log("DO JUMP");
                 _isGrounded = false;
                 _isJumping = true;
             }
@@ -183,7 +178,6 @@ namespace Input
 
         public void SetIsGrounded(bool value)
         {
-            Debug.Log("Set Groudded " + value);
             _isGrounded = value;
             _isJumping = false;
             _jumpTime = 0;
