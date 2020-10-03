@@ -12,10 +12,10 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        _dogAnimation = GetComponentInChildren<DogAnimation>();
+        _playerAnimation = GetComponentInChildren<PlayerAnimation>();
     }
 
-    private DogAnimation _dogAnimation;
+    private PlayerAnimation _playerAnimation;
     public bool isDead;
     public bool hasBomb;
     public bool isGrounded;
@@ -29,13 +29,13 @@ public class Player : MonoBehaviour
     public void GrabBomb()
     {
         hasBomb = true;
-        _dogAnimation.EnableBomb();
+        _playerAnimation.EnableBomb();
     }
 
     public void DropBomb()
     {
         hasBomb = false;
-        _dogAnimation.DisableBomb();
+        _playerAnimation.DisableBomb();
     }
 
     public void SetIsGrounded(bool value)
