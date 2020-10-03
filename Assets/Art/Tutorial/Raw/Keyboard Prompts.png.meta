@@ -1,0 +1,7483 @@
+fileFormatVersion: 2
+guid: b31b974ee4b029d49a2fc7d74cc3ac14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3507185296738718459
+    second: Keyboard Prompts_0
+  - first:
+      213: 4602309120992862197
+    second: Keyboard Prompts_1
+  - first:
+      213: 2115850956354327475
+    second: Keyboard Prompts_2
+  - first:
+      213: -6244483439925667557
+    second: Keyboard Prompts_3
+  - first:
+      213: 8824549947066866965
+    second: Keyboard Prompts_4
+  - first:
+      213: 9038799447572911698
+    second: Keyboard Prompts_5
+  - first:
+      213: -6535736107482941261
+    second: Keyboard Prompts_6
+  - first:
+      213: -2994694265313334832
+    second: Keyboard Prompts_7
+  - first:
+      213: -8996362882409190965
+    second: Keyboard Prompts_8
+  - first:
+      213: -3605773293703486232
+    second: Keyboard Prompts_9
+  - first:
+      213: 8793351238450268263
+    second: Keyboard Prompts_10
+  - first:
+      213: 731107271427265930
+    second: Keyboard Prompts_11
+  - first:
+      213: 8764329273497538847
+    second: Keyboard Prompts_12
+  - first:
+      213: -6390016976006492599
+    second: Keyboard Prompts_13
+  - first:
+      213: 1699751248258616436
+    second: Keyboard Prompts_14
+  - first:
+      213: 3733906889836894585
+    second: Keyboard Prompts_15
+  - first:
+      213: 4202137139461170957
+    second: Keyboard Prompts_16
+  - first:
+      213: 8530703037045641025
+    second: Keyboard Prompts_17
+  - first:
+      213: 5388272844714325189
+    second: Keyboard Prompts_18
+  - first:
+      213: -3349752014854738777
+    second: Keyboard Prompts_19
+  - first:
+      213: -7218699116599259075
+    second: Keyboard Prompts_20
+  - first:
+      213: 1052005970066862993
+    second: Keyboard Prompts_21
+  - first:
+      213: -8561744432113099481
+    second: Keyboard Prompts_22
+  - first:
+      213: 9115587173067719296
+    second: Keyboard Prompts_23
+  - first:
+      213: 7929641257984239216
+    second: Keyboard Prompts_24
+  - first:
+      213: -8563585478641092892
+    second: Keyboard Prompts_25
+  - first:
+      213: 1003498695857230975
+    second: Keyboard Prompts_26
+  - first:
+      213: 1095696640505627421
+    second: Keyboard Prompts_27
+  - first:
+      213: -8036028425766284477
+    second: Keyboard Prompts_28
+  - first:
+      213: -8987218071075685888
+    second: Keyboard Prompts_29
+  - first:
+      213: 7217947235006876599
+    second: Keyboard Prompts_30
+  - first:
+      213: -6569946172626917550
+    second: Keyboard Prompts_31
+  - first:
+      213: 8836131536508764384
+    second: Keyboard Prompts_32
+  - first:
+      213: 4779546714817138435
+    second: Keyboard Prompts_33
+  - first:
+      213: 4665532605229591000
+    second: Keyboard Prompts_34
+  - first:
+      213: 7651139625858172803
+    second: Keyboard Prompts_35
+  - first:
+      213: -9112851679759342389
+    second: Keyboard Prompts_36
+  - first:
+      213: 5975927194453627018
+    second: Keyboard Prompts_37
+  - first:
+      213: 4005828959354958661
+    second: Keyboard Prompts_38
+  - first:
+      213: 7443484666048028728
+    second: Keyboard Prompts_39
+  - first:
+      213: -5563180621113543986
+    second: Keyboard Prompts_40
+  - first:
+      213: 7411636552670920434
+    second: Keyboard Prompts_41
+  - first:
+      213: 8221088073784213136
+    second: Keyboard Prompts_42
+  - first:
+      213: 4159493047062860385
+    second: Keyboard Prompts_43
+  - first:
+      213: -7467014136494866560
+    second: Keyboard Prompts_44
+  - first:
+      213: 5529648809971537524
+    second: Keyboard Prompts_45
+  - first:
+      213: -3579083227162152198
+    second: Keyboard Prompts_46
+  - first:
+      213: 1955080012120212195
+    second: Keyboard Prompts_47
+  - first:
+      213: -5248312618191500409
+    second: Keyboard Prompts_48
+  - first:
+      213: 6131839486461264541
+    second: Keyboard Prompts_49
+  - first:
+      213: 7180400842202819022
+    second: Keyboard Prompts_50
+  - first:
+      213: -6763444760678913942
+    second: Keyboard Prompts_51
+  - first:
+      213: -6287761762480190147
+    second: Keyboard Prompts_52
+  - first:
+      213: 3020473816892123509
+    second: Keyboard Prompts_53
+  - first:
+      213: 4544677088136051825
+    second: Keyboard Prompts_54
+  - first:
+      213: 3148527434684669501
+    second: Keyboard Prompts_55
+  - first:
+      213: -1877722620157608689
+    second: Keyboard Prompts_56
+  - first:
+      213: -3161029900396488241
+    second: Keyboard Prompts_57
+  - first:
+      213: 4699456538134403414
+    second: Keyboard Prompts_58
+  - first:
+      213: -798160476072474379
+    second: Keyboard Prompts_59
+  - first:
+      213: 1470126823047125390
+    second: Keyboard Prompts_60
+  - first:
+      213: -1554471193271147758
+    second: Keyboard Prompts_61
+  - first:
+      213: 1013710833147117483
+    second: Keyboard Prompts_62
+  - first:
+      213: -3295281450832069211
+    second: Keyboard Prompts_63
+  - first:
+      213: 6849838280546743533
+    second: Keyboard Prompts_64
+  - first:
+      213: 5617952408572180628
+    second: Keyboard Prompts_65
+  - first:
+      213: 3446809425795495245
+    second: Keyboard Prompts_66
+  - first:
+      213: 7834992520503879077
+    second: Keyboard Prompts_67
+  - first:
+      213: -2499416994023472381
+    second: Keyboard Prompts_68
+  - first:
+      213: 4578448390536726959
+    second: Keyboard Prompts_69
+  - first:
+      213: -6100502255292994354
+    second: Keyboard Prompts_70
+  - first:
+      213: -1802205050015104889
+    second: Keyboard Prompts_71
+  - first:
+      213: 5504453423294119863
+    second: Keyboard Prompts_72
+  - first:
+      213: -8086883478418376316
+    second: Keyboard Prompts_73
+  - first:
+      213: -8118550357589574327
+    second: Keyboard Prompts_74
+  - first:
+      213: 6938918660620312144
+    second: Keyboard Prompts_75
+  - first:
+      213: -1384245900385334760
+    second: Keyboard Prompts_76
+  - first:
+      213: 3044431650659754657
+    second: Keyboard Prompts_77
+  - first:
+      213: 2038996747240083428
+    second: Keyboard Prompts_78
+  - first:
+      213: 502247719942187716
+    second: Keyboard Prompts_79
+  - first:
+      213: -5427773513689089394
+    second: Keyboard Prompts_80
+  - first:
+      213: 5273073671620170494
+    second: Keyboard Prompts_81
+  - first:
+      213: 1099208029275584529
+    second: Keyboard Prompts_82
+  - first:
+      213: -7444416152616316073
+    second: Keyboard Prompts_83
+  - first:
+      213: 1664316500051242178
+    second: Keyboard Prompts_84
+  - first:
+      213: -8919991181202559027
+    second: Keyboard Prompts_85
+  - first:
+      213: 6763581123171675045
+    second: Keyboard Prompts_86
+  - first:
+      213: 7324316816983419972
+    second: Keyboard Prompts_87
+  - first:
+      213: 6399744521100683880
+    second: Keyboard Prompts_88
+  - first:
+      213: 967786355213178514
+    second: Keyboard Prompts_89
+  - first:
+      213: 2317617297942380640
+    second: Keyboard Prompts_90
+  - first:
+      213: 6034905778636347824
+    second: Keyboard Prompts_91
+  - first:
+      213: 8679537074964288509
+    second: Keyboard Prompts_92
+  - first:
+      213: 6219035023092813016
+    second: Keyboard Prompts_93
+  - first:
+      213: 5038211114992292482
+    second: Keyboard Prompts_94
+  - first:
+      213: -2227660447996634254
+    second: Keyboard Prompts_95
+  - first:
+      213: 3308298242329715537
+    second: Keyboard Prompts_96
+  - first:
+      213: -5861593960616018676
+    second: Keyboard Prompts_97
+  - first:
+      213: 5867957129360422767
+    second: Keyboard Prompts_98
+  - first:
+      213: -3501850741187119222
+    second: Keyboard Prompts_99
+  - first:
+      213: 7375706934011578679
+    second: Keyboard Prompts_100
+  - first:
+      213: -3821604413433617886
+    second: Keyboard Prompts_101
+  - first:
+      213: -4833567901454215407
+    second: Keyboard Prompts_102
+  - first:
+      213: -177700636932748169
+    second: Keyboard Prompts_103
+  - first:
+      213: -1913570621371804825
+    second: Keyboard Prompts_104
+  - first:
+      213: -6846427352195296955
+    second: Keyboard Prompts_105
+  - first:
+      213: 3775821217400859262
+    second: Keyboard Prompts_106
+  - first:
+      213: -4776164507851710484
+    second: Keyboard Prompts_107
+  - first:
+      213: -7662119413909268215
+    second: Keyboard Prompts_108
+  - first:
+      213: 5670663468619440015
+    second: Keyboard Prompts_109
+  - first:
+      213: 550818454119387761
+    second: Keyboard Prompts_110
+  - first:
+      213: -5074341469594136716
+    second: Keyboard Prompts_111
+  - first:
+      213: 2130384894588918430
+    second: Keyboard Prompts_112
+  - first:
+      213: 5048270479968430858
+    second: Keyboard Prompts_113
+  - first:
+      213: -8287027805060986688
+    second: Keyboard Prompts_114
+  - first:
+      213: -8700348890081707911
+    second: Keyboard Prompts_115
+  - first:
+      213: -6058098764886651419
+    second: Keyboard Prompts_116
+  - first:
+      213: 1680461276507402752
+    second: Keyboard Prompts_117
+  - first:
+      213: -189612678821679113
+    second: Keyboard Prompts_118
+  - first:
+      213: 557615297321345486
+    second: Keyboard Prompts_119
+  - first:
+      213: -4602564184966467819
+    second: Keyboard Prompts_120
+  - first:
+      213: -4861459159378201814
+    second: Keyboard Prompts_121
+  - first:
+      213: -3044545985142882940
+    second: Keyboard Prompts_122
+  - first:
+      213: -8782593526187665571
+    second: Keyboard Prompts_123
+  - first:
+      213: -4259360186254098347
+    second: Keyboard Prompts_124
+  - first:
+      213: 4691190796200105006
+    second: Keyboard Prompts_125
+  - first:
+      213: -7289759650949358589
+    second: Keyboard Prompts_126
+  - first:
+      213: -8804622734828264534
+    second: Keyboard Prompts_127
+  - first:
+      213: 9205657439176708868
+    second: Keyboard Prompts_128
+  - first:
+      213: -7978782485169407705
+    second: Keyboard Prompts_129
+  - first:
+      213: 1818617519899548127
+    second: Keyboard Prompts_130
+  - first:
+      213: 1618906646399488302
+    second: Keyboard Prompts_131
+  - first:
+      213: 1848503957122916600
+    second: Keyboard Prompts_132
+  - first:
+      213: 2638049149799833475
+    second: Keyboard Prompts_133
+  - first:
+      213: 2584530401124131203
+    second: Keyboard Prompts_134
+  - first:
+      213: -5135234766989923066
+    second: Keyboard Prompts_135
+  - first:
+      213: 5659511814543123287
+    second: Keyboard Prompts_136
+  - first:
+      213: 2267848485304413431
+    second: Keyboard Prompts_137
+  - first:
+      213: 8184817934157597038
+    second: Keyboard Prompts_138
+  - first:
+      213: 3689059918048945468
+    second: Keyboard Prompts_139
+  - first:
+      213: -5663473980602938830
+    second: Keyboard Prompts_140
+  - first:
+      213: 6386281567721260837
+    second: Keyboard Prompts_141
+  - first:
+      213: -3052205836702772153
+    second: Keyboard Prompts_142
+  - first:
+      213: -8312871346682983899
+    second: Keyboard Prompts_143
+  - first:
+      213: -8153890023926834951
+    second: Keyboard Prompts_144
+  - first:
+      213: -7010085309993072608
+    second: Keyboard Prompts_145
+  - first:
+      213: -3479846665172553399
+    second: Keyboard Prompts_146
+  - first:
+      213: 4494052285939767036
+    second: Keyboard Prompts_147
+  - first:
+      213: 8079428081842222740
+    second: Keyboard Prompts_148
+  - first:
+      213: -2156650229105257351
+    second: Keyboard Prompts_149
+  - first:
+      213: -4942862938768895791
+    second: Keyboard Prompts_150
+  - first:
+      213: 2076427625465254125
+    second: Keyboard Prompts_151
+  - first:
+      213: -4258728451908835895
+    second: Keyboard Prompts_152
+  - first:
+      213: 7269713211927583993
+    second: Keyboard Prompts_153
+  - first:
+      213: 8442561874870603841
+    second: Keyboard Prompts_154
+  - first:
+      213: 506613448003112034
+    second: Keyboard Prompts_155
+  - first:
+      213: 2134047276140944890
+    second: Keyboard Prompts_156
+  - first:
+      213: 2712880197074231312
+    second: Keyboard Prompts_157
+  - first:
+      213: -7020057341942357257
+    second: Keyboard Prompts_158
+  - first:
+      213: 3430318490506513752
+    second: Keyboard Prompts_159
+  - first:
+      213: -3807875236940272965
+    second: Keyboard Prompts_160
+  - first:
+      213: -5087210209279605934
+    second: Keyboard Prompts_161
+  - first:
+      213: 2128433774375043159
+    second: Keyboard Prompts_162
+  - first:
+      213: -4269539907610943338
+    second: Keyboard Prompts_163
+  - first:
+      213: 6099037855033009216
+    second: Keyboard Prompts_164
+  - first:
+      213: 234381156766431290
+    second: Keyboard Prompts_165
+  - first:
+      213: 7112383738944155792
+    second: Keyboard Prompts_166
+  - first:
+      213: 1915086931277938073
+    second: Keyboard Prompts_167
+  - first:
+      213: 6061681723585414147
+    second: Keyboard Prompts_168
+  - first:
+      213: 4475692502633020728
+    second: Keyboard Prompts_169
+  - first:
+      213: -6579250389421009659
+    second: Keyboard Prompts_170
+  - first:
+      213: -6112339836024968732
+    second: Keyboard Prompts_171
+  - first:
+      213: 426338934003541949
+    second: Keyboard Prompts_172
+  - first:
+      213: 7120129061588525207
+    second: Keyboard Prompts_173
+  - first:
+      213: 6766688751727013754
+    second: Keyboard Prompts_174
+  - first:
+      213: -4857721394110151124
+    second: Keyboard Prompts_175
+  - first:
+      213: 5576238036146334793
+    second: Keyboard Prompts_176
+  - first:
+      213: 2913843558713972830
+    second: Keyboard Prompts_177
+  - first:
+      213: 6855652627457842829
+    second: Keyboard Prompts_178
+  - first:
+      213: 92598518709408347
+    second: Keyboard Prompts_179
+  - first:
+      213: 796007037580988152
+    second: Keyboard Prompts_180
+  - first:
+      213: 4771627048354656234
+    second: Keyboard Prompts_181
+  - first:
+      213: -4937540616961567359
+    second: Keyboard Prompts_182
+  - first:
+      213: 211551596212485302
+    second: Keyboard Prompts_183
+  - first:
+      213: -8723076073732285846
+    second: Keyboard Prompts_184
+  - first:
+      213: -1809754528652339222
+    second: Keyboard Prompts_185
+  - first:
+      213: -1606591107870690626
+    second: Keyboard Prompts_186
+  - first:
+      213: 7803379764714236103
+    second: Keyboard Prompts_187
+  - first:
+      213: -3796821308887646927
+    second: Keyboard Prompts_188
+  - first:
+      213: -9119675502653008313
+    second: Keyboard Prompts_189
+  - first:
+      213: 7998261118101816237
+    second: Keyboard Prompts_190
+  - first:
+      213: -995714906984836854
+    second: Keyboard Prompts_191
+  - first:
+      213: -6271632988691147952
+    second: Keyboard Prompts_192
+  - first:
+      213: -3303779036871711075
+    second: Keyboard Prompts_193
+  - first:
+      213: 7454402009520509033
+    second: Keyboard Prompts_194
+  - first:
+      213: -6261564045417274646
+    second: Keyboard Prompts_195
+  - first:
+      213: 5435135821284691514
+    second: Keyboard Prompts_196
+  - first:
+      213: 5034339405313725372
+    second: Keyboard Prompts_197
+  - first:
+      213: 7357097449662443272
+    second: Keyboard Prompts_198
+  - first:
+      213: -619334399495543641
+    second: Keyboard Prompts_199
+  - first:
+      213: -606622680744548657
+    second: Keyboard Prompts_200
+  - first:
+      213: 2164770595708668977
+    second: Keyboard Prompts_201
+  - first:
+      213: -8826016522497526005
+    second: Keyboard Prompts_202
+  - first:
+      213: 9100243706068498587
+    second: Keyboard Prompts_203
+  - first:
+      213: -6995244820926415795
+    second: Keyboard Prompts_204
+  - first:
+      213: -7434539797326874535
+    second: Keyboard Prompts_205
+  - first:
+      213: -5001092969948505370
+    second: Keyboard Prompts_206
+  - first:
+      213: 4806561294740648408
+    second: Keyboard Prompts_207
+  - first:
+      213: -7346557764321661422
+    second: Keyboard Prompts_208
+  - first:
+      213: -1280654875138725354
+    second: Keyboard Prompts_209
+  - first:
+      213: -7818379665891568045
+    second: Keyboard Prompts_210
+  - first:
+      213: -7708622656305492559
+    second: Keyboard Prompts_211
+  - first:
+      213: 1209195518906545595
+    second: Keyboard Prompts_212
+  - first:
+      213: 7117845309428634150
+    second: Keyboard Prompts_213
+  - first:
+      213: 4233840290823893425
+    second: Keyboard Prompts_214
+  - first:
+      213: 187527834236132893
+    second: Keyboard Prompts_215
+  - first:
+      213: -175504653612231535
+    second: Keyboard Prompts_216
+  - first:
+      213: 1245232876395567242
+    second: Keyboard Prompts_217
+  - first:
+      213: -4994307357311301718
+    second: Keyboard Prompts_218
+  - first:
+      213: -1001912292950473447
+    second: Keyboard Prompts_219
+  - first:
+      213: 5536535405251906817
+    second: Keyboard Prompts_220
+  - first:
+      213: 7114063786307821275
+    second: Keyboard Prompts_221
+  - first:
+      213: 792245494030953190
+    second: Keyboard Prompts_222
+  - first:
+      213: 9066967402332363617
+    second: Keyboard Prompts_223
+  - first:
+      213: -2773024435965700089
+    second: Keyboard Prompts_224
+  - first:
+      213: -6669219585214223033
+    second: Keyboard Prompts_225
+  - first:
+      213: -2471053864044675602
+    second: Keyboard Prompts_226
+  - first:
+      213: -3628885500248892522
+    second: Keyboard Prompts_227
+  - first:
+      213: 4158143179549517089
+    second: Keyboard Prompts_228
+  - first:
+      213: 4830223596983334597
+    second: Keyboard Prompts_229
+  - first:
+      213: 8277221347410903236
+    second: Keyboard Prompts_230
+  - first:
+      213: -507323455780688043
+    second: Keyboard Prompts_231
+  - first:
+      213: -255520457807745251
+    second: Keyboard Prompts_232
+  - first:
+      213: 531405016207675370
+    second: Keyboard Prompts_233
+  - first:
+      213: 4439487012608987514
+    second: Keyboard Prompts_234
+  - first:
+      213: -7078314704822784351
+    second: Keyboard Prompts_235
+  - first:
+      213: -7473500263905999017
+    second: Keyboard Prompts_236
+  - first:
+      213: 413939697931977724
+    second: Keyboard Prompts_237
+  - first:
+      213: 8749466957303894280
+    second: Keyboard Prompts_238
+  - first:
+      213: -4147527715098224398
+    second: Keyboard Prompts_239
+  - first:
+      213: 5086467260860494253
+    second: Keyboard Prompts_240
+  - first:
+      213: -5199721471144516301
+    second: Keyboard Prompts_241
+  - first:
+      213: -5191322242677398852
+    second: Keyboard Prompts_242
+  - first:
+      213: 432981929296224939
+    second: Keyboard Prompts_243
+  - first:
+      213: -4967189255589574541
+    second: Keyboard Prompts_244
+  - first:
+      213: -1005844235249104449
+    second: Keyboard Prompts_245
+  - first:
+      213: 6157528167668130127
+    second: Keyboard Prompts_246
+  - first:
+      213: -8628706714041756515
+    second: Keyboard Prompts_247
+  - first:
+      213: 4039536805037351411
+    second: Keyboard Prompts_248
+  - first:
+      213: -1165568820898675008
+    second: Keyboard Prompts_249
+  - first:
+      213: 2029416484560580586
+    second: Keyboard Prompts_250
+  - first:
+      213: -2317893290708953671
+    second: Keyboard Prompts_251
+  - first:
+      213: -6237772191195569567
+    second: Keyboard Prompts_252
+  - first:
+      213: 1919464913030048853
+    second: Keyboard Prompts_253
+  - first:
+      213: 2433237724846422818
+    second: Keyboard Prompts_254
+  - first:
+      213: -2941792524527650208
+    second: Keyboard Prompts_255
+  - first:
+      213: -4483684474029106817
+    second: Keyboard Prompts_256
+  - first:
+      213: -3504493167061922449
+    second: Keyboard Prompts_257
+  - first:
+      213: -6578926146947599412
+    second: Keyboard Prompts_258
+  - first:
+      213: 3004241666374370897
+    second: Keyboard Prompts_259
+  - first:
+      213: -2247971500444122556
+    second: Keyboard Prompts_260
+  - first:
+      213: 3778383015067951706
+    second: Keyboard Prompts_261
+  - first:
+      213: 9137265973015177801
+    second: Keyboard Prompts_262
+  - first:
+      213: 7046706099074921889
+    second: Keyboard Prompts_263
+  - first:
+      213: -5698356275438494633
+    second: Keyboard Prompts_264
+  - first:
+      213: 9049329791924674921
+    second: Keyboard Prompts_265
+  - first:
+      213: 5728693958493956918
+    second: Keyboard Prompts_266
+  - first:
+      213: -8583264284751222934
+    second: Keyboard Prompts_267
+  - first:
+      213: -1684860384610083328
+    second: Keyboard Prompts_268
+  - first:
+      213: -8516408052294544804
+    second: Keyboard Prompts_269
+  - first:
+      213: -9214613393026732071
+    second: Keyboard Prompts_270
+  - first:
+      213: -748020619233508299
+    second: Keyboard Prompts_271
+  - first:
+      213: 5423735270533158596
+    second: Keyboard Prompts_272
+  - first:
+      213: 24716115822492963
+    second: Keyboard Prompts_273
+  - first:
+      213: -3096547446435335390
+    second: Keyboard Prompts_274
+  - first:
+      213: -3947524380206424503
+    second: Keyboard Prompts_275
+  - first:
+      213: -4632527788984073858
+    second: Keyboard Prompts_276
+  - first:
+      213: 4521600780630907676
+    second: Keyboard Prompts_277
+  - first:
+      213: -6520525765608355546
+    second: Keyboard Prompts_278
+  - first:
+      213: -8573625571927345469
+    second: Keyboard Prompts_279
+  - first:
+      213: 7859092198919845462
+    second: Keyboard Prompts_280
+  - first:
+      213: 665452581852957023
+    second: Keyboard Prompts_281
+  - first:
+      213: 4102278683280771641
+    second: Keyboard Prompts_282
+  - first:
+      213: 7289879684837882406
+    second: Keyboard Prompts_283
+  - first:
+      213: 1831902657534402797
+    second: Keyboard Prompts_284
+  - first:
+      213: 8775129348820204934
+    second: Keyboard Prompts_285
+  - first:
+      213: 2764229910452023007
+    second: Keyboard Prompts_286
+  - first:
+      213: 7569780507611607077
+    second: Keyboard Prompts_287
+  - first:
+      213: -6363907259097430391
+    second: Keyboard Prompts_288
+  - first:
+      213: 2442225221019543622
+    second: Keyboard Prompts_289
+  - first:
+      213: 8500877819151777320
+    second: Keyboard Prompts_290
+  - first:
+      213: -6532174160848012568
+    second: Keyboard Prompts_291
+  - first:
+      213: 7207209446574058813
+    second: Keyboard Prompts_292
+  - first:
+      213: 1540891286718173764
+    second: Keyboard Prompts_293
+  - first:
+      213: 9171802845404317500
+    second: Keyboard Prompts_294
+  - first:
+      213: 6717812448309896392
+    second: Keyboard Prompts_295
+  - first:
+      213: 2763428245273933705
+    second: Keyboard Prompts_296
+  - first:
+      213: -4892588156799380078
+    second: Keyboard Prompts_297
+  - first:
+      213: -7553328067375312124
+    second: Keyboard Prompts_298
+  - first:
+      213: -8856991507272665441
+    second: Keyboard Prompts_299
+  - first:
+      213: 6913448946545539361
+    second: Keyboard Prompts_300
+  - first:
+      213: -6963932165659030222
+    second: Keyboard Prompts_301
+  - first:
+      213: -6332324458880535558
+    second: Keyboard Prompts_302
+  - first:
+      213: -3557424553499173114
+    second: Keyboard Prompts_303
+  - first:
+      213: -5124807966918887202
+    second: Keyboard Prompts_304
+  - first:
+      213: 4638186881858125063
+    second: Keyboard Prompts_305
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Keyboard Prompts_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2959d02760ca030800000000000000
+      internalID: 3507185296738718459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffd15fe2cfaedf30800000000000000
+      internalID: 4602309120992862197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b39b2b0c330d5d10800000000000000
+      internalID: 2115850956354327475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19db6565632759a0800000000000000
+      internalID: -6244483439925667557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ddc912c69177a70800000000000000
+      internalID: 8824549947066866965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256949c3534407d70800000000000000
+      internalID: 9038799447572911698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8f8c753a66c45a0800000000000000
+      internalID: -6535736107482941261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d96919ae65b076d0800000000000000
+      internalID: -2994694265313334832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ad7b8f9f762380800000000000000
+      internalID: -8996362882409190965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a6382b48b5fdc0800000000000000
+      internalID: -3605773293703486232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_10
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768c119bc52480a70800000000000000
+      internalID: 8793351238450268263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a859026903a652a00800000000000000
+      internalID: 731107271427265930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11d061f90721a970800000000000000
+      internalID: 8764329273497538847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eca648a691257a0800000000000000
+      internalID: -6390016976006492599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c4bfe21cab69710800000000000000
+      internalID: 1699751248258616436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9799c11888081d330800000000000000
+      internalID: 3733906889836894585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_16
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072f07e67df05a30800000000000000
+      internalID: 4202137139461170957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f837fe635236670800000000000000
+      internalID: 8530703037045641025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 177
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4b41e9a9df6ca40800000000000000
+      internalID: 5388272844714325189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_19
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 177
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac2fec4a4a4381d0800000000000000
+      internalID: -3349752014854738777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 180
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30dca6566702db90800000000000000
+      internalID: -7218699116599259075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 180
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193fc632bd9799e00800000000000000
+      internalID: 1052005970066862993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 165
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d58321dc29e2980800000000000000
+      internalID: -8561744432113099481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 165
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0820fc9cc32118e70800000000000000
+      internalID: 9115587173067719296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ae6a06bebb0e60800000000000000
+      internalID: 7929641257984239216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e677e50168082980800000000000000
+      internalID: -8563585478641092892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_26
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7453234fb42ded00800000000000000
+      internalID: 1003498695857230975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_27
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d134dee0a42b43f00800000000000000
+      internalID: 1095696640505627421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343524539ba4a7090800000000000000
+      internalID: -8036028425766284477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aff8ad7ccf64380800000000000000
+      internalID: -8987218071075685888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_30
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb091694cc4b2460800000000000000
+      internalID: 7217947235006876599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_31
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257a22bd3ccd2d4a0800000000000000
+      internalID: -6569946172626917550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e04b3e01de30aa70800000000000000
+      internalID: 8836131536508764384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f8f0cf96c545240800000000000000
+      internalID: 4779546714817138435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_34
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d966b67f2d4fb040800000000000000
+      internalID: 4665532605229591000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_35
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3870136c3fe4e2a60800000000000000
+      internalID: 7651139625858172803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc46f11eda5a88180800000000000000
+      internalID: -9112851679759342389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_37
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80510d1f12cee250800000000000000
+      internalID: 5975927194453627018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_38
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5433359f630979730800000000000000
+      internalID: 4005828959354958661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_39
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8302cd2ddd19c4760800000000000000
+      internalID: 7443484666048028728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_40
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2b03933bc9bc2b0800000000000000
+      internalID: -5563180621113543986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_41
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe30461d2c6bd660800000000000000
+      internalID: 7411636552670920434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_42
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ebb11cb0c271270800000000000000
+      internalID: 8221088073784213136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 165
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16293eb63ec79b930800000000000000
+      internalID: 4159493047062860385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_44
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 168
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f376d6436df5890800000000000000
+      internalID: -7467014136494866560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 153
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476d30b9b424dbc40800000000000000
+      internalID: 5529648809971537524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 153
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f07784ca845ec0800000000000000
+      internalID: -3579083227162152198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_47
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e244ed99e6d12b10800000000000000
+      internalID: 1955080012120212195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_48
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bce720b7f3a27b0800000000000000
+      internalID: -5248312618191500409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92cc3a668ba81550800000000000000
+      internalID: 6131839486461264541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_50
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec92a68c588e5a360800000000000000
+      internalID: 7180400842202819022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68a1cd03da6322a0800000000000000
+      internalID: -6763444760678913942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8513bdf16db8a0800000000000000
+      internalID: -6287761762480190147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579293deee0eae920800000000000000
+      internalID: 3020473816892123509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_54
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cb431abbfe11f30800000000000000
+      internalID: 4544677088136051825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_55
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e93fd2501d1bb20800000000000000
+      internalID: 3148527434684669501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_56
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d3aceb93df0f5e0800000000000000
+      internalID: -1877722620157608689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_57
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc99a7ead04c124d0800000000000000
+      internalID: -3161029900396488241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_58
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65953e892d2d73140800000000000000
+      internalID: 4699456538134403414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_59
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f881fd964d5ce4f0800000000000000
+      internalID: -798160476072474379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_60
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e895f767e80f66410800000000000000
+      internalID: 1470126823047125390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213ee778fa86d6ae0800000000000000
+      internalID: -1554471193271147758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_62
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baff2b2c1ac611e00800000000000000
+      internalID: 1013710833147117483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_63
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad7838cafec442d0800000000000000
+      internalID: -3295281450832069211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_64
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de47cd8cf938f0f50800000000000000
+      internalID: 6849838280546743533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_65
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 153
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498befd43f9f6fd40800000000000000
+      internalID: 5617952408572180628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_66
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 153
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45320929e685df20800000000000000
+      internalID: 3446809425795495245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_67
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 158
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5e9729f2c7bbc60800000000000000
+      internalID: 7834992520503879077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30308a58c79405dd0800000000000000
+      internalID: -2499416994023472381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_69
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 141
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa98664bd8ae98f30800000000000000
+      internalID: 4578448390536726959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_70
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccaac94589a65ba0800000000000000
+      internalID: -6100502255292994354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7804f653e084df6e0800000000000000
+      internalID: -1802205050015104889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_72
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff022893fb36c40800000000000000
+      internalID: 5504453423294119863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_73
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489b5e0925e95cf80800000000000000
+      internalID: -8086883478418376316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_74
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94db0c4b67d155f80800000000000000
+      internalID: -8118550357589574327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_75
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e5a9302cdfb4060800000000000000
+      internalID: 6938918660620312144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_76
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81acdb900bb2acce0800000000000000
+      internalID: -1384245900385334760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_77
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2e788c47eff3a20800000000000000
+      internalID: 3044431650659754657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_78
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef0c611db8fb4c10800000000000000
+      internalID: 2038996747240083428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_79
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca6768e3a758f600800000000000000
+      internalID: 502247719942187716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_80
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ab9433fbcaca4b0800000000000000
+      internalID: -5427773513689089394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_81
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2926ff098bd2940800000000000000
+      internalID: 5273073671620170494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_82
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1187a37f0eb214f00800000000000000
+      internalID: 1099208029275584529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_83
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753df1f83fe10b890800000000000000
+      internalID: -7444416152616316073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_84
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc2063f907d81710800000000000000
+      internalID: 1664316500051242178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_85
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfedc4e743d53480800000000000000
+      internalID: -8919991181202559027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_86
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab6f2052311ddd50800000000000000
+      internalID: 6763581123171675045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_87
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c67b2d65335a560800000000000000
+      internalID: 7324316816983419972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_88
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a65711cb570d850800000000000000
+      internalID: 6399744521100683880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_89
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 141
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29693f000944e6d00800000000000000
+      internalID: 967786355213178514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_90
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 146
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060082937a4d92020800000000000000
+      internalID: 2317617297942380640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_91
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 146
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b95294d4da40c350800000000000000
+      internalID: 6034905778636347824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df35418cbf8e37870800000000000000
+      internalID: 8679537074964288509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_93
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 129
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc092557637e4650800000000000000
+      internalID: 6219035023092813016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_94
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 129
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2825a84c0525be540800000000000000
+      internalID: 5038211114992292482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_95
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 129
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b19fc00a2c511e0800000000000000
+      internalID: -2227660447996634254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_96
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 129
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153ac1929bf69ed20800000000000000
+      internalID: 3308298242329715537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 129
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d38ef495f67aea0800000000000000
+      internalID: -5861593960616018676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 129
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67bfbc5beb2f6150800000000000000
+      internalID: 5867957129360422767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_99
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 129
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a877a13fd4de66fc0800000000000000
+      internalID: -3501850741187119222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_100
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 129
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7394529d066cb5660800000000000000
+      internalID: 7375706934011578679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_101
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 129
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2226931a80fe6fac0800000000000000
+      internalID: -3821604413433617886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_102
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 129
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117571c5a97bbecb0800000000000000
+      internalID: -4833567901454215407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_103
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 129
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4343563ea88df0800000000000000
+      internalID: -177700636932748169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_104
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 134
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763928c88a1a175e0800000000000000
+      internalID: -1913570621371804825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_105
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 124
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54191ebd89a9cf0a0800000000000000
+      internalID: -6846427352195296955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_106
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7aaf8e5469666430800000000000000
+      internalID: 3775821217400859262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_107
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef9ba07fa7a7bdb0800000000000000
+      internalID: -4776164507851710484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_108
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909505b1dfeaaa590800000000000000
+      internalID: -7662119413909268215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_109
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f98d7516e32be40800000000000000
+      internalID: 5670663468619440015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_110
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17214853776e4a700800000000000000
+      internalID: 550818454119387761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_111
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fcec381515499b0800000000000000
+      internalID: -5074341469594136716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_112
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a94dc36c5a09d10800000000000000
+      internalID: 2130384894588918430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_113
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0beb90314f0f0640800000000000000
+      internalID: 5048270479968430858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_114
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c80e8b2e109efc80800000000000000
+      internalID: -8287027805060986688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_115
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97837b8e7c6224780800000000000000
+      internalID: -8700348890081707911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_116
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edc2b0454f4deba0800000000000000
+      internalID: -6058098764886651419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_117
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002f505a0a2325710800000000000000
+      internalID: 1680461276507402752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_118
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff6ce1f54c5e5df0800000000000000
+      internalID: -189612678821679113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_119
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1a926982c0db700800000000000000
+      internalID: 557615297321345486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_120
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f632b52486020c0800000000000000
+      internalID: -4602564184966467819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_121
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a237133d6a0a88cb0800000000000000
+      internalID: -4861459159378201814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_122
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d7735ae899fb5d0800000000000000
+      internalID: -3044545985142882940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_123
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5750f858b5fd1680800000000000000
+      internalID: -8782593526187665571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_124
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 113
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55002e74a76b3e4c0800000000000000
+      internalID: -4259360186254098347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_125
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24d6159c257a1140800000000000000
+      internalID: 4691190796200105006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_126
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c1033683295da90800000000000000
+      internalID: -7289759650949358589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_127
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 101
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3ab358542bfc580800000000000000
+      internalID: -8804622734828264534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_128
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035f02daa011cf70800000000000000
+      internalID: 9205657439176708868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_129
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7297e576a9ba54190800000000000000
+      internalID: -7978782485169407705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_130
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd91ae7bff60d3910800000000000000
+      internalID: 1818617519899548127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_131
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21192f7403877610800000000000000
+      internalID: 1618906646399488302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_132
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f027322e8437a910800000000000000
+      internalID: 1848503957122916600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_133
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f17d989bb3c9420800000000000000
+      internalID: 2638049149799833475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_134
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381a336d4b81ed320800000000000000
+      internalID: 2584530401124131203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_135
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6453ef2bfbb8b0800000000000000
+      internalID: -5135234766989923066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_136
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75328fb8200aa8e40800000000000000
+      internalID: 5659511814543123287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_137
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc2afa8e24097f10800000000000000
+      internalID: 2267848485304413431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_138
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69c5bccb80569170800000000000000
+      internalID: 8184817934157597038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_139
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c356072337c223330800000000000000
+      internalID: 3689059918048945468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_140
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a8e77cb6c4761b0800000000000000
+      internalID: -5663473980602938830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_141
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52786a7ff31a0a850800000000000000
+      internalID: 6386281567721260837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_142
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74415f976f264a5d0800000000000000
+      internalID: -3052205836702772153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_143
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a007dbd8fb2ac80800000000000000
+      internalID: -8312871346682983899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_144
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f85d32793097de80800000000000000
+      internalID: -8153890023926834951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_145
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028cda43d8c27be90800000000000000
+      internalID: -7010085309993072608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_146
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 101
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941ff8125e915bfc0800000000000000
+      internalID: -3479846665172553399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_147
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6d8795eb41e5e30800000000000000
+      internalID: 4494052285939767036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_148
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4967586a805ef1070800000000000000
+      internalID: 8079428081842222740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_149
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 89
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749a650b0a0212e0800000000000000
+      internalID: -2156650229105257351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_150
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d09c39785c676bb0800000000000000
+      internalID: -4942862938768895791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_151
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de01aa98ce3f0dc10800000000000000
+      internalID: 2076427625465254125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_152
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5ef156905f5e4c0800000000000000
+      internalID: -4258728451908835895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_153
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc58ef46a533e460800000000000000
+      internalID: 7269713211927583993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_154
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1401be96b410a2570800000000000000
+      internalID: 8442561874870603841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_155
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c49ae2f3ad70700800000000000000
+      internalID: 506613448003112034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_156
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd5544e0b8ad9d10800000000000000
+      internalID: 2134047276140944890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_157
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0102dc07a2616a520800000000000000
+      internalID: 2712880197074231312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_158
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f227a69a0fb39e90800000000000000
+      internalID: -7020057341942357257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_159
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d48151e70fa9f20800000000000000
+      internalID: 3430318490506513752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_160
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba2b21a5a5b72bc0800000000000000
+      internalID: -3807875236940272965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_161
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253062294499669b0800000000000000
+      internalID: -5087210209279605934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_162
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7508199ad37b98d10800000000000000
+      internalID: 2128433774375043159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_163
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690ee74331c8fb4c0800000000000000
+      internalID: -4269539907610943338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_164
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04427e47d9224a450800000000000000
+      internalID: 6099037855033009216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_165
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38bb179b60b04300800000000000000
+      internalID: 234381156766431290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_166
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090f70ad35344b260800000000000000
+      internalID: 7112383738944155792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_167
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d70dcda61c39a10800000000000000
+      internalID: 1915086931277938073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_168
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 89
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30449c3596b6f1450800000000000000
+      internalID: 6061681723585414147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_169
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 89
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83df15f2e9adc1e30800000000000000
+      internalID: 4475692502633020728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 77
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d53211aec1b4a0800000000000000
+      internalID: -6579250389421009659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_171
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 77
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9234fbd4b9c2ba0800000000000000
+      internalID: -6112339836024968732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_172
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7233b6009aae500800000000000000
+      internalID: 426338934003541949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_173
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906bee48a7cfc260800000000000000
+      internalID: 7120129061588525207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_174
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fe158719b18ed50800000000000000
+      internalID: 6766688751727013754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_175
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26cf3e1128e59cb0800000000000000
+      internalID: -4857721394110151124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_176
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c268f13f6c26d40800000000000000
+      internalID: 5576238036146334793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_177
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d438474d007820800000000000000
+      internalID: 2913843558713972830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_178
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e191bedbb242f50800000000000000
+      internalID: 6855652627457842829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_179
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52d666bcd9f84100800000000000000
+      internalID: 92598518709408347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_180
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fec9b9ee2cfb0b00800000000000000
+      internalID: 796007037580988152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_181
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef23d1f489383240800000000000000
+      internalID: 4771627048354656234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_182
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18551f518f45a7bb0800000000000000
+      internalID: -4937540616961567359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_183
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc79ef4e059fe200800000000000000
+      internalID: 211551596212485302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_184
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a5a7c178861f680800000000000000
+      internalID: -8723076073732285846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_185
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d50d38d572e6e0800000000000000
+      internalID: -1809754528652339222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_186
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2f01446ed34b9e0800000000000000
+      internalID: -1606591107870690626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_187
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8634b4d8c2b4c60800000000000000
+      internalID: 7803379764714236103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_188
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d3e10d22bfe4bc0800000000000000
+      internalID: -3796821308887646927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_189
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746198dc277607180800000000000000
+      internalID: -9119675502653008313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_190
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3074d3c188ffe60800000000000000
+      internalID: 7998261118101816237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_191
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 77
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a019b9f41928e22f0800000000000000
+      internalID: -995714906984836854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_192
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053517b760fa6f8a0800000000000000
+      internalID: -6271632988691147952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_193
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 65
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9621ea587e9622d0800000000000000
+      internalID: -3303779036871711075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_194
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 65
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9609d6ee12b537760800000000000000
+      internalID: 7454402009520509033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_195
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2ab860da47a19a0800000000000000
+      internalID: -6261564045417274646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_196
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 65
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eccad9b3b7d6b40800000000000000
+      internalID: 5435135821284691514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_197
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 65
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3d97c14019dd540800000000000000
+      internalID: 5034339405313725372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_198
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 65
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fef01a629a91660800000000000000
+      internalID: 7357097449662443272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_199
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 65
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a463e025aea767f0800000000000000
+      internalID: -619334399495543641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_200
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 65
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6a689c2e7d497f0800000000000000
+      internalID: -606622680744548657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_201
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 65
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c0d69236fca0e10800000000000000
+      internalID: 2164770595708668977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_202
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 65
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b077eca2cb0b38580800000000000000
+      internalID: -8826016522497526005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_203
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 65
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9872bd7f6f8a4e70800000000000000
+      internalID: 9100243706068498587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_204
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3ac3d5e5ebee90800000000000000
+      internalID: -6995244820926415795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_205
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958b3d7b17533d890800000000000000
+      internalID: -7434539797326874535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_206
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea1485d07c889ab0800000000000000
+      internalID: -5001092969948505370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_207
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d17824080654b240800000000000000
+      internalID: 4806561294740648408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_208
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e28b713a8cb0a90800000000000000
+      internalID: -7346557764321661422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_209
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61aeb7f1d233a3ee0800000000000000
+      internalID: -1280654875138725354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_210
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356556f0e198f7390800000000000000
+      internalID: -7818379665891568045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_211
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd026f3988750590800000000000000
+      internalID: -7708622656305492559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_212
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb53b68faece7c010800000000000000
+      internalID: 1209195518906545595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_213
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6229ca2d89aa7c260800000000000000
+      internalID: 7117845309428634150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_214
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b17b4a005f91ca30800000000000000
+      internalID: 4233840290823893425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_215
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9429529b3a9200800000000000000
+      internalID: 187527834236132893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_216
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194d309827b709df0800000000000000
+      internalID: -175504653612231535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_217
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88123c14b4f74110800000000000000
+      internalID: 1245232876395567242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_218
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa707546be7a0bab0800000000000000
+      internalID: -4994307357311301718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_219
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150792f31e7812f0800000000000000
+      internalID: -1001912292950473447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_220
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dc9640e99b5dc40800000000000000
+      internalID: 5536535405251906817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_221
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde195c525b3ab260800000000000000
+      internalID: 7114063786307821275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_222
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 49
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6e9e441f9efa00800000000000000
+      internalID: 792245494030953190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_223
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b111640d654dd70800000000000000
+      internalID: 9066967402332363617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_224
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70859c4b7fc3489d0800000000000000
+      internalID: -2773024435965700089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_225
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6a3e4f1c2273a0800000000000000
+      internalID: -6669219585214223033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_226
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedb2c45a9d05bdd0800000000000000
+      internalID: -2471053864044675602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_227
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b591b3ddb93adc0800000000000000
+      internalID: -3628885500248892522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_228
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1252346e031b4b930800000000000000
+      internalID: 4158143179549517089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_229
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b6e315c6680340800000000000000
+      internalID: 4830223596983334597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_230
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c005bbf5f89ed270800000000000000
+      internalID: 8277221347410903236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_231
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fe7ff3100a5f8f0800000000000000
+      internalID: -507323455780688043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_232
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f26875f75347cf0800000000000000
+      internalID: -255520457807745251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_233
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef4be6fb0eef5700800000000000000
+      internalID: 531405016207675370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_234
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71d483aae93c9d30800000000000000
+      internalID: 4439487012608987514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_235
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae2d9a4746c4cd90800000000000000
+      internalID: -7078314704822784351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_236
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75748153b1bc84890800000000000000
+      internalID: -7473500263905999017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_237
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf30bad46fb9eb500800000000000000
+      internalID: 413939697931977724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_238
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801dd1c47d95c6970800000000000000
+      internalID: 8749466957303894280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_239
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f89b7584850176c0800000000000000
+      internalID: -4147527715098224398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_240
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da17e354603c69640800000000000000
+      internalID: 5086467260860494253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_241
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335a57d0fd0e6d7b0800000000000000
+      internalID: -5199721471144516301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_242
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb221a2dce7b4f7b0800000000000000
+      internalID: -5191322242677398852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_243
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba26dd945c2420600800000000000000
+      internalID: 432981929296224939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_244
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378427870bff01bb0800000000000000
+      internalID: -4967189255589574541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_245
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 37
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb94a9a4ff58a02f0800000000000000
+      internalID: -1005844235249104449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_246
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4122589e3fe37550800000000000000
+      internalID: 6157528167668130127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_247
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 25
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94538ed5fca04880800000000000000
+      internalID: -8628706714041756515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_248
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12e5162515f0830800000000000000
+      internalID: 4039536805037351411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_249
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c64015355113dfe0800000000000000
+      internalID: -1165568820898675008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_250
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef2e875a8fe92c10800000000000000
+      internalID: 2029416484560580586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_251
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b51804355035dfd0800000000000000
+      internalID: -2317893290708953671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_252
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1626af1cd3bfe69a0800000000000000
+      internalID: -6237772191195569567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_253
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c6bfb2b2f43aa10800000000000000
+      internalID: 1919464913030048853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_254
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bfc83a1d894c120800000000000000
+      internalID: 2433237724846422818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_255
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a31a40947ac27d0800000000000000
+      internalID: -2941792524527650208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_256
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f799f88f9b0c6c1c0800000000000000
+      internalID: -4483684474029106817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_257
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d8d7b380a8d5fc0800000000000000
+      internalID: -3504493167061922449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_258
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3b8a7a685f2b4a0800000000000000
+      internalID: -6578926146947599412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_259
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1560cafd0e531b920800000000000000
+      internalID: 3004241666374370897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_260
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44283d2a4d99dc0e0800000000000000
+      internalID: -2247971500444122556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_261
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52ae7e55538f6430800000000000000
+      internalID: 3778383015067951706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_262
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a65dbbdf61ece70800000000000000
+      internalID: 9137265973015177801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_263
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a570ffacddeac160800000000000000
+      internalID: 7046706099074921889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_264
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cdede982f5be0b0800000000000000
+      internalID: -5698356275438494633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_265
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961a707108da59d70800000000000000
+      internalID: 9049329791924674921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_266
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b65f6adc8608f40800000000000000
+      internalID: 5728693958493956918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_267
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 25
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a672b1eeb9e12e880800000000000000
+      internalID: -8583264284751222934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_268
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 18
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e103f286c2e98e0800000000000000
+      internalID: -1684860384610083328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_269
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 18
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5215b09ff3afc980800000000000000
+      internalID: -8516408052294544804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_270
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfa51ea0fd1f1080800000000000000
+      internalID: -9214613393026732071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_271
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 13
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5344be1c53f7e95f0800000000000000
+      internalID: -748020619233508299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_272
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6d2eb0e7af44b40800000000000000
+      internalID: 5423735270533158596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_273
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32db3d72d2fc75000800000000000000
+      internalID: 24716115822492963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_274
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2233411f08ad605d0800000000000000
+      internalID: -3096547446435335390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_275
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e1a97bd739739c0800000000000000
+      internalID: -3947524380206424503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_276
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e718a752584f5bfb0800000000000000
+      internalID: -4632527788984073858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_277
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b52a914f3ffbe30800000000000000
+      internalID: 4521600780630907676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_278
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c1280d507285a0800000000000000
+      internalID: -6520525765608355546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_279
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6b014a7fc540980800000000000000
+      internalID: -8573625571927345469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_280
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65639a537ba111d60800000000000000
+      internalID: 7859092198919845462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_281
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f594634f8992c3900800000000000000
+      internalID: 665452581852957023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_282
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a8b964ab83ee830800000000000000
+      internalID: 4102278683280771641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_283
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a391e23fada2560800000000000000
+      internalID: 7289879684837882406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_284
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0ae6dd2c93c6910800000000000000
+      internalID: 1831902657534402797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_285
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d788e66a587c970800000000000000
+      internalID: 8775129348820204934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_286
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea00245748c5620800000000000000
+      internalID: 2764229910452023007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_287
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520bdd7e3434d0960800000000000000
+      internalID: 7569780507611607077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_288
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986c7f5b01cdea7a0800000000000000
+      internalID: -6363907259097430391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_289
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648ae5826e684e120800000000000000
+      internalID: 2442225221019543622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_290
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ef981465f29f570800000000000000
+      internalID: 8500877819151777320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_291
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea3baba53e0955a0800000000000000
+      internalID: -6532174160848012568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_292
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3de2e46ec6250460800000000000000
+      internalID: 7207209446574058813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_293
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442d4561678526510800000000000000
+      internalID: 1540891286718173764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_294
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37cd36f71ac84f70800000000000000
+      internalID: 9171802845404317500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_295
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4653944d67a3d50800000000000000
+      internalID: 6717812448309896392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_296
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98775d9095ba95620800000000000000
+      internalID: 2763428245273933705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_297
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29590b15ef80a1cb0800000000000000
+      internalID: -4892588156799380078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_298
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035b1854203d2790800000000000000
+      internalID: -7553328067375312124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_299
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f967c568625a51580800000000000000
+      internalID: -8856991507272665441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_300
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12935a7103181ff50800000000000000
+      internalID: 6913448946545539361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_301
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d0af187942b5f90800000000000000
+      internalID: -6963932165659030222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_302
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af378e964701f18a0800000000000000
+      internalID: -6332324458880535558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_303
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fdd65773d71aec0800000000000000
+      internalID: -3557424553499173114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_304
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed835b57e4601e8b0800000000000000
+      internalID: -5124807966918887202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keyboard Prompts_305
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70db70715662e5040800000000000000
+      internalID: 4638186881858125063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
