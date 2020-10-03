@@ -15,8 +15,7 @@ namespace Tutorial
                 gameObject.SetActive(false);
         }
 
-
-        private void OnTriggerEnter(Collider other)
+        private void OnTriggerEnter2D(Collider2D other)
         {
             if(nextStep != null)
                 nextStep.gameObject.SetActive(true);
