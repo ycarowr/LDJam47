@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Vector2 _currentSpeed;
+    /*private Vector2 _currentSpeed;
     private Rigidbody2D _rigidbody2D;
     private bool _isMovingLeft;
     private bool _isMovingUp;
@@ -62,5 +62,5 @@ public class PlayerMovement : MonoBehaviour
     {
         var miniTutorial = MiniTutorial.Get();
         miniTutorial.Hide();
-    }
+    }*/
 }

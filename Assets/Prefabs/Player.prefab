@@ -90,9 +90,9 @@ GameObject:
   - component: {fileID: 3908322418921564766}
   - component: {fileID: 3908322418921564767}
   - component: {fileID: 4490911937395455870}
-  - component: {fileID: 3908322418921564765}
   - component: {fileID: 3908322418921564763}
   - component: {fileID: 3908322418921564764}
+  - component: {fileID: 1210764763}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -179,23 +179,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDead: 0
---- !u!114 &3908322418921564765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3908322418921567648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d6043ef719cd82429ea02d2046cc496, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 330
-  down: 115
-  up: 119
-  left: 97
-  right: 100
 --- !u!50 &3908322418921564763
 Rigidbody2D:
   serializedVersion: 4
@@ -211,7 +194,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -233,6 +216,29 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
+--- !u!114 &1210764763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908322418921567648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b964f05b65ec545997080aa9094144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  dashSpeed: 0
+  dashDuration: 0
+  dashCooldown: 0
+  dashInputBuffer: 0
+  jumpSpeed: 0
+  jumpDuration: 0
+  jumpInputBuffer: 0
+  kickSpeed: 0
+  kickDuration: 0
+  kickInputBuffer: 0
 --- !u!1001 &3301685298194271228
 PrefabInstance:
   m_ObjectHideFlags: 0
