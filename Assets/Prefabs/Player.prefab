@@ -232,16 +232,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  dashSpeed: 0
-  dashDuration: 0
-  dashCooldown: 0
+  dashSpeed: 10
+  dashDuration: 0.5
+  dashCooldown: 2
   dashInputBuffer: 0
   jumpSpeed: 9
   fallSpeed: -11
   jumpDuration: 0.35
-  kickSpeed: 0
-  kickDuration: 0
-  kickInputBuffer: 0
   grabDistance: 1
 --- !u!114 &4641832318594638212
 MonoBehaviour:
