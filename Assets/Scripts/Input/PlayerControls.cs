@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.IO.Pipes;
 using UnityEngine;
 
 namespace Input
@@ -32,35 +34,22 @@ namespace Input
 
         [Header("Kick Variables")] [Tooltip("The Y velocity after a kick")]
         public float kickSpeed;
-
+        
         [Tooltip("How long the kick disables gravity for the bomb")]
         public float kickDuration;
 
         [Tooltip("How long to buffer kick input")]
         public float kickInputBuffer;
-
-        /// Flags that impact the jump input
-        [Flags]
-        private enum PlayerFlags
-        {
-            None = 0,
-            IsGrounded = 1,
-
-            /// If player is grounded
-            IsWalled = 2,
-
-            /// If player is connected to a wall
-            IsCarryingBomb = 4 /// If player is carrying the bomb
-        }
+        
+        [Header("Bomb Grip")]
+        [Tooltip("Distance to grab the bomb")]
+        public float grabDistance;
 
         /// This game object rigid body
         private Rigidbody2D _rb;
 
         /// Movement buffer
         private Vector2 _moveTo;
-
-        /// Binary Combination of all player flags (e.g IsCarryingBomb + IsWalled = 6)  
-        private PlayerFlags _playerFlags = 0;
 
         /// Cached movement input to be used in the current Frame 
         private float _moveInput = 0;
@@ -80,13 +69,21 @@ namespace Input
         private float _jumpTime;
         private bool _isGrounded;
         private bool _isJumping;
+        private bool _isLookingRight;
+        private bool _hasBomb;
+        private Bomb _bomb;
 
+        private void Awake()
+        {
+            _bomb = Bomb.Get();
+        }
+        
         private void Start()
         {
+            var kickAction = InputBroadcaster.Input.actions["Kick"];
             var moveAction = InputBroadcaster.Input.actions["Move"];
             var directionAction = InputBroadcaster.Input.actions["Direction"];
             var jumpAction = InputBroadcaster.Input.actions["Jump"];
-            var kickAction = InputBroadcaster.Input.actions["Kick"];
             var dashAction = InputBroadcaster.Input.actions["Dash"];
 
             // Cache the movement input
@@ -100,7 +97,7 @@ namespace Input
             // Register the jump input (Ignore the CallbackContext)
             jumpAction.performed += _ => OnJump();
             // Register the kick input (Ignore the CallbackContext)
-            kickAction.performed += _ => OnKick();
+            kickAction.canceled += _ => OnKick();
             // Register the dash input (Ignore the CallbackContext)
             dashAction.performed += _ => OnDash();
 
@@ -167,13 +164,30 @@ namespace Input
             // Do the actual dash pointing to direction _directionInput
         }
 
-        private void OnKick()
+        private IEnumerator OnKick()
         {
-            var f = _playerFlags | PlayerFlags.IsCarryingBomb;
+            yield return new WaitForEndOfFrame();
+            
             _kickTrigger = false;
-            if (f == PlayerFlags.None)
-                return;
-            // Do the actual kicking logic
+            if (!_hasBomb)
+            {
+                if (CalcDistanaceToBomb() < grabDistance)
+                {
+                    _bomb.Grab();
+                    _hasBomb = true;
+                }
+            }
+            else
+            {
+                var isRight = _moveInput > 0;
+                _bomb.Kick(isRight);
+                _hasBomb = false;
+            }
+        }
+
+        private float CalcDistanaceToBomb()
+        {
+            return Vector2.Distance(_bomb.transform.position, transform.position);
         }
 
         public void SetIsGrounded(bool value)
