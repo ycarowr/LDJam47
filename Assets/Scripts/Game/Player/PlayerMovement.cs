@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Vector2 _currentSpeed;
     private Rigidbody2D _rigidbody2D;
+    private DogAnimation _dogAnimation;
     private bool _isMovingLeft;
     private bool _isMovingUp;
 
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _dogAnimation = GetComponentInChildren<DogAnimation>();
     }
 
     private void FixedUpdate()
@@ -45,6 +47,7 @@ public class PlayerMovement : MonoBehaviour
             _currentSpeed.x = -Speed;
             _isMovingLeft = true;
             DisableTutorial();
+            _dogAnimation.WalkLeft();
         }
 
         if (Input.GetKey(right))
@@ -52,10 +55,14 @@ public class PlayerMovement : MonoBehaviour
             _currentSpeed.x = Speed;
             _isMovingLeft = false;
             DisableTutorial();
+            _dogAnimation.WalkRight();
         }
 
         _rigidbody2D.velocity = _currentSpeed * Time.deltaTime;
-
+        if(_currentSpeed.magnitude < Mathf.Epsilon)
+        {
+            _dogAnimation.Idle();
+        }
     }
 
     private void DisableTutorial()
