@@ -6,7 +6,7 @@ public class SimpleTrap : MonoBehaviour
 {
     private UiPressEButton _buttonE;
     
-    private void Awake()
+    private void Start()
     {
         _buttonE = GetComponentInChildren<UiPressEButton>();
         _buttonE.AddListener(DoSomething);
