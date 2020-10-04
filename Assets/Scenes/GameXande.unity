@@ -3953,7 +3953,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 635572992}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8265e4f072f2e174d862f0af6c32c5b9, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4285,36 +4285,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 3.5}
   m_EdgeRadius: 0
---- !u!1 &1284663061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1284663062}
-  m_Layer: 0
-  m_Name: GroundCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1284663062
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284663061}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.58, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2063177778}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1383144945
 GameObject:
   m_ObjectHideFlags: 0
@@ -4597,7 +4567,7 @@ PrefabInstance:
     - target: {fileID: 3908322418921564766, guid: bd9bee7f1e33ff2419d1e0c9e109fcec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 3908322418921564766, guid: bd9bee7f1e33ff2419d1e0c9e109fcec,
         type: 3}
@@ -4883,9 +4853,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &2063177778 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3908322418921564766, guid: bd9bee7f1e33ff2419d1e0c9e109fcec,
-    type: 3}
-  m_PrefabInstance: {fileID: 1694764642}
-  m_PrefabAsset: {fileID: 0}

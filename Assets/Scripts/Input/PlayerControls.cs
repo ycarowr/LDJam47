@@ -26,14 +26,11 @@ namespace Input
         [Tooltip("How long to buffer dash input")]
         public float dashInputBuffer;
 
-        [Header("Jump Variables")] [Tooltip("The Y velocity after a jump")]
-        public float jumpSpeed;
-
-        [Tooltip("The Y velocity after a jump")]
-        public float fallSpeed;
-
-        [Tooltip("The force applied to jump")]
+        [Header("Jump Variables")] [Tooltip("The force applied to jump")]
         public int jumpForce;
+
+        [Tooltip("How many additional gravities per second while falling")]
+        public float fallGravityMultiplier;
 
         [Header("Bomb Grip")]
         [Tooltip("Distance to grab the bomb")]
@@ -41,21 +38,33 @@ namespace Input
 
         [Header("Collision checks")]
         [Tooltip("Ground Check Notifier")]
-        public Collision2DNotifier groundCheck;
+        public Trigger2DNotifier groundCheck;
 
         /// This game object rigid body
         private Rigidbody2D _rb;
-
         /// Movement buffer
-        private Vector2 _moveTo;
-
+        private Vector2 _moveSpeed;
         /// Cached movement input to be used in the current Frame 
-        private float _moveInput = 0;
+        private float _horizontalInput = 0;
 
-        private float _jumpTime;
+        /// Player Animation State 
+        enum PlayerState
+        {
+            None,
+            Moving,
+            Idle,
+            Dashing,
+            Jumping,
+            Falling
+        }
+        private PlayerState _lastState = PlayerState.None;
+        private PlayerState _currentState = PlayerState.None;
+        
+        /// Gravity multiplier when not jumping or falling 
+        private float _standardGravityMultiplier;
+        
         private float _dashTime;
-        private bool _isGrounded;
-        private bool _isJumping;
+        public bool _isGrounded;
         private bool _isLookingRight;
         private bool _hasBomb;
         private bool _isDashing;
@@ -66,12 +75,12 @@ namespace Input
         
         private void Awake()
         {
-            _moveTo.y = 0;
+            _moveSpeed.y = 0;
             _rb = GetComponent<Rigidbody2D>();
             _bomb = Bomb.Get();
             _playerAnimation = GetComponentInChildren<PlayerAnimation>();
             groundCheck.OnNotifyCollision += (obj,  col) => _isGrounded = true;
-            groundCheck.OnNotifyLeave += (obj,  col) => _isGrounded = false;
+            _standardGravityMultiplier = _rb.gravityScale;
         }
         
         private void Start()
@@ -82,8 +91,8 @@ namespace Input
             var jumpAction = InputBroadcaster.Input.actions["Jump"];
             var dashAction = InputBroadcaster.Input.actions["Dash"];
             
-            moveAction.performed += (ctx) => _moveInput = ctx.ReadValue<float>();
-            moveAction.canceled += (ctx) => _moveInput = ctx.ReadValue<float>();
+            moveAction.performed += (ctx) => _horizontalInput = ctx.ReadValue<float>();
+            moveAction.canceled += (ctx) => _horizontalInput = ctx.ReadValue<float>();
 
             directionAction.performed += SetDirection;
             directionAction.canceled += SetDirection;
@@ -95,34 +104,75 @@ namespace Input
         
         public void Update()
         {
-            ApplyDashVelocity();
-            ApplyVerticalVelocity();
+            // Better jumping
+            if (_rb.velocity.y < 0)
+               _rb.gravityScale += fallGravityMultiplier * Time.deltaTime;
+            //else if (_rb.velocity > 0 && InputBroadcaster.Input.actions["Jump"].activeControl.IsActuated())
+            //{
+                
+            //}
+            else
+                _rb.gravityScale = _standardGravityMultiplier;
             Move();
-            HandleMoveAnimation();
+            // Rotate to where it is moving
+            var rotation = transform.rotation;
+            if (_horizontalInput > 0)
+                rotation.y = 0;
+            else if (_horizontalInput < 0)
+                rotation.y = 180;
+            transform.rotation = rotation;
+            DecideAnimation();
         }
-        
+
+        private void DecideAnimation()
+        {
+            // If Player is dashing, it is locked in the animation, otherwise...
+            if (_currentState != PlayerState.Dashing)
+            {
+                // Calculate the current state
+                _lastState = _currentState;
+                if (_rb.velocity.y > 0)
+                    _currentState = PlayerState.Jumping;
+                else if (_rb.velocity.y < 0)
+                    _currentState = PlayerState.Falling;
+                else if (_horizontalInput == 0)
+                    _currentState = PlayerState.Idle;
+                else
+                {
+                    // Rotate the character to match the direction it is moving
+                    _currentState = PlayerState.Moving;
+                }
+                
+                // Check if there is need to change the animation
+                if (_currentState == _lastState)
+                    return;
+
+                switch (_currentState)
+                {
+                    case PlayerState.Dashing:
+                        _playerAnimation.Dash();
+                        break;
+                    case PlayerState.Jumping:
+                        _playerAnimation.Jump();
+                        break;
+                    case PlayerState.Moving:
+                        _playerAnimation.RunRight();
+                        break;
+                    case PlayerState.Idle:
+                        _playerAnimation.Idle();
+                        break;
+                }
+            }
+        }
+
         #region Movement
 
         private void Move()
         {
+            _moveSpeed.y = _rb.velocity.y;
             if(!_isDashing)
-                _moveTo.x = _moveInput * speed;
-            _rb.velocity = _moveTo;
-        }
-        
-        private void HandleMoveAnimation()
-        {
-            if (_isDashing || _isJumping)
-                return;
-
-            if(_rb.velocity.magnitude < Mathf.Epsilon)
-                _playerAnimation.Idle();
-
-            if(_rb.velocity.x > 0)
-                _playerAnimation.RunRight();
-
-            if(_rb.velocity.x < 0)
-                _playerAnimation.RunLeft();
+                _moveSpeed.x = _horizontalInput * speed;
+            _rb.velocity = _moveSpeed;
         }
         
         #endregion
@@ -133,40 +183,11 @@ namespace Input
         {
             if (_isGrounded)
             {
-                _isJumping = true;
-                _playerAnimation.Jump();
+                _rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                _isGrounded = false;
             }
         }
 
-
-        private void ApplyVerticalVelocity()
-        {
-            if (_isDashing)
-                return;
-            
-            if (_isGrounded)
-            {
-                _moveTo.y = 0;
-                return;
-            }
-            
-            if (_isJumping)
-            {
-                _moveTo.y = jumpSpeed;
-                _jumpTime += Time.deltaTime;
-                if (_jumpTime > jumpDuration)
-                {
-                    _isJumping = false;
-                    _moveTo.y = fallSpeed;
-                    _playerAnimation.Fall();
-                }
-            }
-            else
-            {
-                _moveTo.y = fallSpeed;
-            }
-        }
-        
         #endregion
         
         #region Dash
@@ -175,22 +196,17 @@ namespace Input
         {
             if (!_isDashing)
             {
-                _isDashing = true;
-                _dashTime = 0;
-                _playerAnimation.Dash();
+                _lastState = _currentState;
+                _currentState = PlayerState.Dashing;
             }
         }
         
         private void ApplyDashVelocity()
         {
-            if (!_isDashing)
-                return;
-            
             _dashTime += Time.deltaTime;
             if (_dashTime > dashDuration)
             {
                 _isDashing = false;
-                _isJumping = false;
                 _playerAnimation.StopDash();
                 if(_currentDirection.y > 0)
                     _isGrounded = false;
@@ -201,12 +217,12 @@ namespace Input
                 if (hasXInput)
                 {
                     var dashAmountX = _currentDirection.x > 0 ? dashSpeed : -dashSpeed;
-                    _moveTo.x = dashAmountX;
+                    _moveSpeed.x = dashAmountX;
                 }
                 else
                 {
                     var dashAmountY = _currentDirection.y > 0 ? dashSpeed : -dashSpeed;
-                    _moveTo.y = dashAmountY;
+                    _moveSpeed.y = dashAmountY;
                 }
             }
         }
@@ -242,14 +258,6 @@ namespace Input
         #endregion
 
         #region Setters
-
-        public void SetIsGrounded(bool value)
-        {
-            _isGrounded = value;
-            _isJumping = false;
-            _jumpTime = 0;
-            _playerAnimation.Idle();
-        }
 
         private void SetDirection(InputAction.CallbackContext input)
         {
