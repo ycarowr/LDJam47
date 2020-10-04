@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Tools.Trail;
+using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
@@ -13,9 +14,11 @@ public class PlayerAnimation : MonoBehaviour
     
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
+    private TrailParticles _trailDashAnim;
 
     private void Awake()
     {
+        _trailDashAnim = GetComponentInChildren<TrailParticles>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
     }
@@ -49,5 +52,15 @@ public class PlayerAnimation : MonoBehaviour
     public void Fall()
     {
         _animator.Play(_fall);
+    }
+
+    public void Dash()
+    {
+        _trailDashAnim.Play();
+    }
+
+    public void StopDash()
+    {
+        _trailDashAnim.StopTrail();
     }
 }

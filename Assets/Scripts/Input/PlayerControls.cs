@@ -109,6 +109,7 @@ namespace Input
             {
                 _isDashing = false;
                 _isJumping = false;
+                _playerAnimation.StopDash();
                 if(_currentDirection.y > 0)
                     _isGrounded = false;
             }
@@ -194,6 +195,7 @@ namespace Input
             {
                 _isDashing = true;
                 _dashTime = 0;
+                _playerAnimation.Dash();
             }
         }
 
