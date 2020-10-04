@@ -42,10 +42,17 @@ namespace Input
 
         /// This game object rigid body
         private Rigidbody2D _rb;
+        /// Player Animator reference
+        private PlayerAnimation _playerAnimation;
+        
         /// Movement buffer
         private Vector2 _moveSpeed;
-        /// Cached movement input to be used in the current Frame 
+        /// Movement horizontal input 
         private float _horizontalInput = 0;
+        /// Timestamp of last dash
+        private float _lastDashTime;
+        /// True if the player is on the ground or haven't dashed since left the ground
+        private bool _canDash;
 
         /// Player Animation State 
         enum PlayerState
@@ -62,24 +69,24 @@ namespace Input
         
         /// Gravity multiplier when not jumping or falling 
         private float _standardGravityMultiplier;
-        
+
         private float _dashTime;
-        public bool _isGrounded;
-        private bool _isLookingRight;
+        private bool _isGrounded;
         private bool _hasBomb;
-        private bool _isDashing;
         private Bomb _bomb;
         private Vector2 _currentDirection;
 
-        private PlayerAnimation _playerAnimation;
-        
         private void Awake()
         {
             _moveSpeed.y = 0;
             _rb = GetComponent<Rigidbody2D>();
             _bomb = Bomb.Get();
             _playerAnimation = GetComponentInChildren<PlayerAnimation>();
-            groundCheck.OnNotifyCollision += (obj,  col) => _isGrounded = true;
+            groundCheck.OnNotifyCollision += (obj, col) =>
+            {
+                _isGrounded = true;
+                _canDash = true;
+            };
             _standardGravityMultiplier = _rb.gravityScale;
         }
         
@@ -104,26 +111,23 @@ namespace Input
         
         public void Update()
         {
-            // Better jumping
-            if (_rb.velocity.y < 0)
-               _rb.gravityScale += fallGravityMultiplier * Time.deltaTime;
-            //else if (_rb.velocity > 0 && InputBroadcaster.Input.actions["Jump"].activeControl.IsActuated())
-            //{
-                
-            //}
-            else
-                _rb.gravityScale = _standardGravityMultiplier;
+            if (_currentState == PlayerState.Dashing)
+                return;
             Move();
-            // Rotate to where it is moving
+            DecideAnimation();
+            RotateToMovement();
+        }
+
+        private void RotateToMovement()
+        {
             var rotation = transform.rotation;
             if (_horizontalInput > 0)
                 rotation.y = 0;
             else if (_horizontalInput < 0)
                 rotation.y = 180;
             transform.rotation = rotation;
-            DecideAnimation();
         }
-
+        
         private void DecideAnimation()
         {
             // If Player is dashing, it is locked in the animation, otherwise...
@@ -169,10 +173,15 @@ namespace Input
 
         private void Move()
         {
+            // Standard non-dashing movement
             _moveSpeed.y = _rb.velocity.y;
-            if(!_isDashing)
-                _moveSpeed.x = _horizontalInput * speed;
+            _moveSpeed.x = _horizontalInput * speed;
             _rb.velocity = _moveSpeed;
+            // Better jumping
+            if (_rb.velocity.y < 0)
+               _rb.gravityScale += fallGravityMultiplier * Time.deltaTime;
+            else
+                _rb.gravityScale = _standardGravityMultiplier;
         }
         
         #endregion
@@ -194,39 +203,31 @@ namespace Input
 
         private void OnDash()
         {
-            if (!_isDashing)
+            var cd = Time.time - _lastDashTime;
+            if (cd >= 0 && _canDash)
             {
+                if (!_isGrounded)
+                    _canDash = false;
                 _lastState = _currentState;
                 _currentState = PlayerState.Dashing;
+                _rb.velocity = dashSpeed * _currentDirection;
+                _lastDashTime = Time.time;
+                StartCoroutine(PerformDash());
             }
         }
         
-        private void ApplyDashVelocity()
+        IEnumerator PerformDash()
         {
-            _dashTime += Time.deltaTime;
-            if (_dashTime > dashDuration)
-            {
-                _isDashing = false;
-                _playerAnimation.StopDash();
-                if(_currentDirection.y > 0)
-                    _isGrounded = false;
-            }
-            else
-            {
-                var hasXInput = Math.Abs(_currentDirection.x) > Mathf.Epsilon;
-                if (hasXInput)
-                {
-                    var dashAmountX = _currentDirection.x > 0 ? dashSpeed : -dashSpeed;
-                    _moveSpeed.x = dashAmountX;
-                }
-                else
-                {
-                    var dashAmountY = _currentDirection.y > 0 ? dashSpeed : -dashSpeed;
-                    _moveSpeed.y = dashAmountY;
-                }
-            }
+            _playerAnimation.Dash();
+            _rb.gravityScale = 0;
+            yield return new WaitForSeconds(dashDuration);
+            _rb.gravityScale = _standardGravityMultiplier;
+            _lastState = PlayerState.Dashing;
+            _currentState = PlayerState.Idle;
+            _rb.velocity *= Vector2.right;
+            _playerAnimation.StopDash();
         }
-        
+
         #endregion
         
         #region Kick
@@ -261,7 +262,7 @@ namespace Input
 
         private void SetDirection(InputAction.CallbackContext input)
         {
-            if(!_isDashing)
+            if(_currentState != PlayerState.Dashing)
                 _currentDirection = input.ReadValue<Vector2>();
         }
         

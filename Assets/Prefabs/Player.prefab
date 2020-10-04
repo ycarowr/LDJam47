@@ -200,8 +200,6 @@ GameObject:
   - component: {fileID: 4490911937395455870}
   - component: {fileID: 3908322418921564763}
   - component: {fileID: 3908322418921564764}
-  - component: {fileID: 4641832318594638212}
-  - component: {fileID: 2680851527116762390}
   - component: {fileID: 6200023817885196262}
   m_Layer: 10
   m_Name: Player
@@ -328,49 +326,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.5, y: 1}
   m_Direction: 0
---- !u!114 &4641832318594638212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3908322418921567648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: ed5087ae7570d1a4ab11e81d9ac38ce5,
-    type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gameplay
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &2680851527116762390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3908322418921567648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e3d2597edbc9e840946360e63e51558, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6200023817885196262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,8 +340,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   dashSpeed: 10
-  dashDuration: 0.5
-  dashCooldown: 2
+  dashDuration: 0.3
+  dashCooldown: 0.8
   dashInputBuffer: 0
   jumpForce: 9
   fallGravityMultiplier: 4
