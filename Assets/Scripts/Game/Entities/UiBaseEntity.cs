@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Input;
+using UnityEngine;
 
 public abstract class UiBaseEntity : MonoBehaviour
 {
@@ -6,11 +7,11 @@ public abstract class UiBaseEntity : MonoBehaviour
     protected Collider Collider { get; set; }
     protected SpriteRenderer SpriteRenderer { get; set; }
     protected Animator Animator { get; set; }
-    protected Player Player;
+    protected PlayerControls Player;
 
     protected virtual void Awake()
     {
-        Player = Player.Get();
+        Player = PlayerControls.Get();
         Rigidbody2D = GetComponentInChildren<Rigidbody2D>();
         Collider = GetComponentInChildren<Collider>();
         SpriteRenderer = GetComponentInChildren<SpriteRenderer>();

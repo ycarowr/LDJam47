@@ -56,7 +56,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1}
+  m_Size: {x: 0.21, y: 0.1}
   m_EdgeRadius: 0
 --- !u!114 &1233841357
 MonoBehaviour:
@@ -82,9 +82,9 @@ GameObject:
   - component: {fileID: 1591940342503956584}
   - component: {fileID: 1591940342503956585}
   - component: {fileID: 1591940342503956588}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bomb
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,8 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e35d946bd7a75f4995d888faff36395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 0}
   localPlayerOffset: {x: 0, y: 0.65, z: 0}
-  force: {x: 500, y: 950}
+  force: {x: 1000, y: 1000}
   gravityRigidbody: {fileID: 1591940342503956588}
 --- !u!58 &1591940342503956585
 CircleCollider2D:
@@ -167,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4392747621019435926}
   - component: {fileID: 7395430779828066276}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BombSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

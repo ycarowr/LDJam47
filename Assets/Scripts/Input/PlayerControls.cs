@@ -39,6 +39,8 @@ namespace Input
         [Header("Collision checks")]
         [Tooltip("Ground Check Notifier")]
         public Trigger2DNotifier groundCheck;
+        
+        [SerializeField] private Transform respawnPoint; 
 
         /// This game object rigid body
         private Rigidbody2D _rb;
@@ -75,6 +77,17 @@ namespace Input
         private bool _hasBomb;
         private Bomb _bomb;
         private Vector2 _currentDirection;
+        
+        
+        public static PlayerControls Get()
+        {
+            return FindObjectOfType<PlayerControls>();
+        }
+
+        public void ResetPosition()
+        {
+            transform.position = respawnPoint.position;
+        }
 
         private void Awake()
         {
@@ -88,6 +101,7 @@ namespace Input
                 _canDash = true;
             };
             _standardGravityMultiplier = _rb.gravityScale;
+            ResetPosition();
         }
         
         private void Start()
@@ -244,8 +258,7 @@ namespace Input
             }
             else
             {
-                var isRight = _playerAnimation.IsLookingRight();
-                _bomb.Kick(isRight);
+                _bomb.Kick(_currentDirection);
                 _hasBomb = false;
             }
         }
