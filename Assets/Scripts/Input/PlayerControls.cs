@@ -105,7 +105,7 @@ namespace Input
             directionAction.canceled += SetDirection;
 
             jumpAction.performed += _ => OnJump();
-            kickAction.canceled += _ => OnKick();
+            kickAction.performed += _ => OnKick();
             dashAction.performed += _ => OnDash();
         }
         
@@ -232,9 +232,8 @@ namespace Input
         
         #region Kick
 
-        private IEnumerator OnKick()
+        private void OnKick()
         {
-            yield return new WaitForEndOfFrame();
             if (!_hasBomb)
             {
                 if (CalcDistanaceToBomb() < grabDistance)

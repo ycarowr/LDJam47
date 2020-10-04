@@ -2,6 +2,7 @@
 using System.Runtime.CompilerServices;
 using Input;
 using UnityEngine;
+using Utilities;
 
 public class Bomb : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Bomb : MonoBehaviour
     [SerializeField] private Vector3 localPlayerOffset;
     [SerializeField] private Vector2 force = new Vector2(700, 1100);
     [SerializeField] private Rigidbody2D gravityRigidbody;
+    private Trigger2DNotifier _groundCheck;
+    private int _groundLayer;
 
     public static Bomb Get()
     {
@@ -17,8 +20,17 @@ public class Bomb : MonoBehaviour
     
     private void Awake()
     {
+        _groundLayer = LayerMask.NameToLayer("Ground");
+        _groundCheck = GetComponentInChildren<Trigger2DNotifier>();
+        _groundCheck.OnNotifyCollision += StopBounciness;
         _player = Player.Get();
         Physics2D.IgnoreCollision(_player.GetComponent<Collider2D>(), gravityRigidbody.GetComponent<Collider2D>());
+    }
+
+    private void StopBounciness(object sender, Collider2D coll)
+    {
+        if(coll.gameObject.layer == _groundLayer)
+            gravityRigidbody.velocity = Vector2.zero;
     }
 
     private void DisableGravity()
@@ -36,7 +48,6 @@ public class Bomb : MonoBehaviour
         EnableGravity();
         UnparentPlayer();
         gravityRigidbody.velocity = Vector2.zero;
-        gravityRigidbody.Sleep();
         var forceX = Mathf.Abs(force.x);
         force.x = isRight ? forceX : -forceX;
         gravityRigidbody.AddForce(force, ForceMode2D.Force);
