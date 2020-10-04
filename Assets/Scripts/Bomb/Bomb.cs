@@ -58,9 +58,12 @@ public class Bomb : MonoBehaviour
         UnparentPlayer();
         gravityRigidbody.velocity = Vector2.zero;
         var effectiveForce = new Vector2();
-        if (Math.Abs(direction.x) > Mathf.Epsilon)
-            effectiveForce.x = direction.x > 0 ? forceX : -forceX;
+        effectiveForce.x = direction.x > 0 ? forceX : -forceX;
         effectiveForce.y = forceY;
+        
+        if (Math.Abs(direction.x) < Mathf.Abs(direction.y))
+            effectiveForce.x = direction.x >= 0 ? forceX/2 : -forceX/2;
+        
         gravityRigidbody.AddForce(effectiveForce, ForceMode2D.Force);
     }
 

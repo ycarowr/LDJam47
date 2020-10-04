@@ -189,6 +189,9 @@ namespace Input
 
         private void Move()
         {
+            if (Mathf.Abs(_currentDirection.y) > 0)
+                return;
+            
             // Standard non-dashing movement
             _moveSpeed.y = _rb.velocity.y;
             _moveSpeed.x = _horizontalInput * speed;
