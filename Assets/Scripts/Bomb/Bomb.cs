@@ -10,7 +10,8 @@ public class Bomb : MonoBehaviour
     private PlayerControls _player;
     [SerializeField] private Transform respawnPoint;
     [SerializeField] private Vector3 localPlayerOffset;
-    [SerializeField] private Vector2 force = new Vector2(1000, 1000);
+    [SerializeField] private float forceX = 600;
+    [SerializeField] private float forceY = 1000;
     [SerializeField] private Rigidbody2D gravityRigidbody;
     private Trigger2DNotifier _groundCheck;
     private int _groundLayer;
@@ -56,7 +57,10 @@ public class Bomb : MonoBehaviour
         EnableGravity();
         UnparentPlayer();
         gravityRigidbody.velocity = Vector2.zero;
-        var effectiveForce = direction * force;
+        var effectiveForce = new Vector2();
+        if (Math.Abs(direction.x) > Mathf.Epsilon)
+            effectiveForce.x = direction.x > 0 ? forceX : -forceX;
+        effectiveForce.y = forceY;
         gravityRigidbody.AddForce(effectiveForce, ForceMode2D.Force);
     }
 
