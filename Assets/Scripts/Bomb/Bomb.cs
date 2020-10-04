@@ -86,6 +86,8 @@ public class Bomb : MonoBehaviour
     [Button]
     public void ResetPosition()
     {
+        if(respawnPoint == null)
+            Debug.LogError($"Setup a respawn point inside the {typeof(Bomb)} object");
         gravityRigidbody.Sleep();
         ResetVelocity();
         UnparentPlayer();

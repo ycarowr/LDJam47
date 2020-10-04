@@ -14,6 +14,12 @@ public class FallDeathTrigger : MonoBehaviour
         _player = PlayerControls.Get();
         _bomb = Bomb.Get();
         _fade = FadeComponent.Get();
+        if(_player == null)
+            Debug.LogError($"Unable to find a {typeof(PlayerControls)} inside this scene.");
+        if(_bomb == null)
+            Debug.LogError($"Unable to find a {typeof(Bomb)} inside this scene.");
+        if(_fade == null)
+            Debug.LogError($"Unable to find a {typeof(FadeComponent)} inside this scene.");
     }
 
     private void OnTriggerEnter2D(Collider2D other)

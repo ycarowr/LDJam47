@@ -86,6 +86,8 @@ namespace Input
 
         public void ResetPosition()
         {
+            if(respawnPoint == null)
+                Debug.LogError($"Setup a Respawn point inside the {typeof(PlayerControls)} object");
             transform.position = respawnPoint.position;
         }
 
