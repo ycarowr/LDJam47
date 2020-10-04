@@ -2,6 +2,7 @@
 using System.Collections;
 using System.IO.Pipes;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Input
 {
@@ -32,15 +33,6 @@ namespace Input
         [Tooltip("How long the jump disables gravity")]
         public float jumpDuration;
 
-        [Header("Kick Variables")] [Tooltip("The Y velocity after a kick")]
-        public float kickSpeed;
-        
-        [Tooltip("How long the kick disables gravity for the bomb")]
-        public float kickDuration;
-
-        [Tooltip("How long to buffer kick input")]
-        public float kickInputBuffer;
-        
         [Header("Bomb Grip")]
         [Tooltip("Distance to grab the bomb")]
         public float grabDistance;
@@ -54,28 +46,24 @@ namespace Input
         /// Cached movement input to be used in the current Frame 
         private float _moveInput = 0;
 
-        /// If the dash action was triggred this Frame
-        private bool _dashTrigger = false;
-
-        /// If the kick action was triggred this Frame
-        private bool _kickTrigger = false;
-
-        /// Cached direction input to be used in the current Frame
-        private Vector2 _directionInput;
-
-        /// Timestamp of the last player dash
-        private float _lastDash = 0;
-
         private float _jumpTime;
+        private float _dashTime;
         private bool _isGrounded;
         private bool _isJumping;
         private bool _isLookingRight;
         private bool _hasBomb;
+        private bool _isDashing;
         private Bomb _bomb;
+        private Vector2 _currentDirection;
 
+        private PlayerAnimation _playerAnimation;
+        
         private void Awake()
         {
+            _moveTo.y = 0;
+            _rb = GetComponent<Rigidbody2D>();
             _bomb = Bomb.Get();
+            _playerAnimation = GetComponentInChildren<PlayerAnimation>();
         }
         
         private void Start()
@@ -85,34 +73,66 @@ namespace Input
             var directionAction = InputBroadcaster.Input.actions["Direction"];
             var jumpAction = InputBroadcaster.Input.actions["Jump"];
             var dashAction = InputBroadcaster.Input.actions["Dash"];
-
-            // Cache the movement input
+            
             moveAction.performed += (ctx) => _moveInput = ctx.ReadValue<float>();
             moveAction.canceled += (ctx) => _moveInput = ctx.ReadValue<float>();
 
-            // Cache the direction input
-            directionAction.performed += (ctx) => _directionInput = ctx.ReadValue<Vector2>();
-            directionAction.canceled += (ctx) => _directionInput = ctx.ReadValue<Vector2>();
+            directionAction.performed += SetDirection;
+            directionAction.canceled += SetDirection;
 
-            // Register the jump input (Ignore the CallbackContext)
             jumpAction.performed += _ => OnJump();
-            // Register the kick input (Ignore the CallbackContext)
             kickAction.canceled += _ => OnKick();
-            // Register the dash input (Ignore the CallbackContext)
             dashAction.performed += _ => OnDash();
-
-            _rb = GetComponent<Rigidbody2D>();
-            _moveTo.y = 0;
         }
 
+        private void SetDirection(InputAction.CallbackContext input)
+        {
+            if(!_isDashing)
+                _currentDirection = input.ReadValue<Vector2>();
+        }
+        
         public void Update()
         {
+            ApplyDashVelocity();
             ApplyVerticalVelocity();
             Move();
+            HandleMoveAnimation();
+        }
+
+        private void ApplyDashVelocity()
+        {
+            if (!_isDashing)
+                return;
+            
+            _dashTime += Time.deltaTime;
+            if (_dashTime > dashDuration)
+            {
+                _isDashing = false;
+                _isJumping = false;
+                if(_currentDirection.y > 0)
+                    _isGrounded = false;
+            }
+            else
+            {
+                var hasXInput = Math.Abs(_currentDirection.x) > Mathf.Epsilon;
+                if (hasXInput)
+                {
+                    var dashAmountX = _currentDirection.x > 0 ? dashSpeed : -dashSpeed;
+                    _moveTo.x = dashAmountX;
+                }
+                else
+                {
+                    var dashAmountY = _currentDirection.y > 0 ? dashSpeed : -dashSpeed;
+                    _moveTo.y = dashAmountY;
+                }
+            }
         }
 
         private void ApplyVerticalVelocity()
         {
+            if (_isDashing)
+                return;
+            
             if (_isGrounded)
             {
                 _moveTo.y = 0;
@@ -127,6 +147,7 @@ namespace Input
                 {
                     _isJumping = false;
                     _moveTo.y = fallSpeed;
+                    _playerAnimation.Fall();
                 }
             }
             else
@@ -137,8 +158,24 @@ namespace Input
 
         private void Move()
         {
-            _moveTo.x = _moveInput * speed;
+            if(!_isDashing)
+                _moveTo.x = _moveInput * speed;
             _rb.velocity = _moveTo;
+        }
+
+        private void HandleMoveAnimation()
+        {
+            if (_isDashing || _isJumping)
+                return;
+
+            if(_rb.velocity.magnitude < Mathf.Epsilon)
+                _playerAnimation.Idle();
+
+            if(_rb.velocity.x > 0)
+                _playerAnimation.RunRight();
+
+            if(_rb.velocity.x < 0)
+                _playerAnimation.RunLeft();
         }
 
         private void OnJump()
@@ -147,28 +184,22 @@ namespace Input
             {
                 _isGrounded = false;
                 _isJumping = true;
+                _playerAnimation.Jump();
             }
         }
 
         private void OnDash()
         {
-            var time = Time.time - (_lastDash + dashCooldown);
-            // Input buffer logic
-            if (time > 0)
+            if (!_isDashing)
             {
-                _dashTrigger = time <= dashInputBuffer;
-                return;
+                _isDashing = true;
+                _dashTime = 0;
             }
-
-            _dashTrigger = false;
-            // Do the actual dash pointing to direction _directionInput
         }
 
         private IEnumerator OnKick()
         {
             yield return new WaitForEndOfFrame();
-            
-            _kickTrigger = false;
             if (!_hasBomb)
             {
                 if (CalcDistanaceToBomb() < grabDistance)
@@ -195,6 +226,7 @@ namespace Input
             _isGrounded = value;
             _isJumping = false;
             _jumpTime = 0;
+            _playerAnimation.Idle();
         }
     }
 }

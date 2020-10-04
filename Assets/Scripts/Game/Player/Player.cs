@@ -25,21 +25,4 @@ public class Player : MonoBehaviour
         isDead = true;
         OnDie.Invoke();
     }
-
-    public void GrabBomb()
-    {
-        hasBomb = true;
-        _playerAnimation.EnableBomb();
-    }
-
-    public void DropBomb()
-    {
-        hasBomb = false;
-        _playerAnimation.DisableBomb();
-    }
-
-    public void SetIsGrounded(bool value)
-    {
-        isGrounded = value;
-    }
 }
