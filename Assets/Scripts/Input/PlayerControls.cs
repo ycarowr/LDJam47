@@ -3,6 +3,7 @@ using System.Collections;
 using System.IO.Pipes;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Utilities;
 
 namespace Input
 {
@@ -16,7 +17,8 @@ namespace Input
         [Header("Dash Variables")] [Tooltip("The speed while dashing")]
         public float dashSpeed;
 
-        [Tooltip("How long the dash lasts")] public float dashDuration;
+        [Tooltip("How long the dash lasts")]
+        public float dashDuration;
 
         [Tooltip("How long to wait for next dash")]
         public float dashCooldown;
@@ -27,15 +29,19 @@ namespace Input
         [Header("Jump Variables")] [Tooltip("The Y velocity after a jump")]
         public float jumpSpeed;
 
-        [Header("Jump Variables")] [Tooltip("The Y velocity after a jump")]
+        [Tooltip("The Y velocity after a jump")]
         public float fallSpeed;
 
-        [Tooltip("How long the jump disables gravity")]
-        public float jumpDuration;
+        [Tooltip("The force applied to jump")]
+        public int jumpForce;
 
         [Header("Bomb Grip")]
         [Tooltip("Distance to grab the bomb")]
         public float grabDistance;
+
+        [Header("Collision checks")]
+        [Tooltip("Ground Check Notifier")]
+        public Collision2DNotifier groundCheck;
 
         /// This game object rigid body
         private Rigidbody2D _rb;
@@ -64,6 +70,8 @@ namespace Input
             _rb = GetComponent<Rigidbody2D>();
             _bomb = Bomb.Get();
             _playerAnimation = GetComponentInChildren<PlayerAnimation>();
+            groundCheck.OnNotifyCollision += (obj,  col) => _isGrounded = true;
+            groundCheck.OnNotifyLeave += (obj,  col) => _isGrounded = false;
         }
         
         private void Start()
@@ -125,7 +133,6 @@ namespace Input
         {
             if (_isGrounded)
             {
-                _isGrounded = false;
                 _isJumping = true;
                 _playerAnimation.Jump();
             }
