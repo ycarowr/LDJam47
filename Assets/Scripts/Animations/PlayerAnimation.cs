@@ -63,4 +63,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         _trailDashAnim.StopTrail();
     }
+
+    public bool IsLookingRight()
+    {
+        return !_spriteRenderer.flipX;
+    }
 }

@@ -84,12 +84,6 @@ namespace Input
             kickAction.canceled += _ => OnKick();
             dashAction.performed += _ => OnDash();
         }
-
-        private void SetDirection(InputAction.CallbackContext input)
-        {
-            if(!_isDashing)
-                _currentDirection = input.ReadValue<Vector2>();
-        }
         
         public void Update()
         {
@@ -98,7 +92,88 @@ namespace Input
             Move();
             HandleMoveAnimation();
         }
+        
+        #region Movement
 
+        private void Move()
+        {
+            if(!_isDashing)
+                _moveTo.x = _moveInput * speed;
+            _rb.velocity = _moveTo;
+        }
+        
+        private void HandleMoveAnimation()
+        {
+            if (_isDashing || _isJumping)
+                return;
+
+            if(_rb.velocity.magnitude < Mathf.Epsilon)
+                _playerAnimation.Idle();
+
+            if(_rb.velocity.x > 0)
+                _playerAnimation.RunRight();
+
+            if(_rb.velocity.x < 0)
+                _playerAnimation.RunLeft();
+        }
+        
+        #endregion
+
+        #region Jump        
+
+        private void OnJump()
+        {
+            if (_isGrounded)
+            {
+                _isGrounded = false;
+                _isJumping = true;
+                _playerAnimation.Jump();
+            }
+        }
+
+
+        private void ApplyVerticalVelocity()
+        {
+            if (_isDashing)
+                return;
+            
+            if (_isGrounded)
+            {
+                _moveTo.y = 0;
+                return;
+            }
+            
+            if (_isJumping)
+            {
+                _moveTo.y = jumpSpeed;
+                _jumpTime += Time.deltaTime;
+                if (_jumpTime > jumpDuration)
+                {
+                    _isJumping = false;
+                    _moveTo.y = fallSpeed;
+                    _playerAnimation.Fall();
+                }
+            }
+            else
+            {
+                _moveTo.y = fallSpeed;
+            }
+        }
+        
+        #endregion
+        
+        #region Dash
+
+        private void OnDash()
+        {
+            if (!_isDashing)
+            {
+                _isDashing = true;
+                _dashTime = 0;
+                _playerAnimation.Dash();
+            }
+        }
+        
         private void ApplyDashVelocity()
         {
             if (!_isDashing)
@@ -128,76 +203,10 @@ namespace Input
                 }
             }
         }
-
-        private void ApplyVerticalVelocity()
-        {
-            if (_isDashing)
-                return;
-            
-            if (_isGrounded)
-            {
-                _moveTo.y = 0;
-                return;
-            }
-            
-            if (_isJumping)
-            {
-                _moveTo.y = jumpSpeed;
-                _jumpTime += Time.deltaTime;
-                if (_jumpTime > jumpDuration)
-                {
-                    _isJumping = false;
-                    _moveTo.y = fallSpeed;
-                    _playerAnimation.Fall();
-                }
-            }
-            else
-            {
-                _moveTo.y = fallSpeed;
-            }
-        }
-
-        private void Move()
-        {
-            if(!_isDashing)
-                _moveTo.x = _moveInput * speed;
-            _rb.velocity = _moveTo;
-        }
-
-        private void HandleMoveAnimation()
-        {
-            if (_isDashing || _isJumping)
-                return;
-
-            if(_rb.velocity.magnitude < Mathf.Epsilon)
-                _playerAnimation.Idle();
-
-            if(_rb.velocity.x > 0)
-                _playerAnimation.RunRight();
-
-            if(_rb.velocity.x < 0)
-                _playerAnimation.RunLeft();
-        }
-
-        private void OnJump()
-        {
-            if (_isGrounded)
-            {
-                _isGrounded = false;
-                _isJumping = true;
-                _playerAnimation.Jump();
-            }
-        }
-
-        private void OnDash()
-        {
-            if (!_isDashing)
-            {
-                _isDashing = true;
-                _dashTime = 0;
-                _playerAnimation.Dash();
-            }
-        }
+        
+        #endregion
+        
+        #region Kick
 
         private IEnumerator OnKick()
         {
@@ -212,7 +221,7 @@ namespace Input
             }
             else
             {
-                var isRight = _moveInput > 0;
+                var isRight = _playerAnimation.IsLookingRight();
                 _bomb.Kick(isRight);
                 _hasBomb = false;
             }
@@ -222,6 +231,10 @@ namespace Input
         {
             return Vector2.Distance(_bomb.transform.position, transform.position);
         }
+        
+        #endregion
+
+        #region Setters
 
         public void SetIsGrounded(bool value)
         {
@@ -230,5 +243,13 @@ namespace Input
             _jumpTime = 0;
             _playerAnimation.Idle();
         }
+
+        private void SetDirection(InputAction.CallbackContext input)
+        {
+            if(!_isDashing)
+                _currentDirection = input.ReadValue<Vector2>();
+        }
+        
+        #endregion
     }
 }
